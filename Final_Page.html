@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page page-final">
+<main class="shell shell-category">
+    <section class="card category-panel">
+        <h1 class="title">Final Results</h1>
+        <p class="subtitle">Select one item, then choose your next action.</p>
+
+        <div class="category-container">
+            <img src="img/logodesign.png" alt="FoodApp logo" class="background-image">
+
+            <div class="results-box">
+                <h2>Recommendations</h2>
+                <ul id="finalResultsList">
+                    <li>Your final choices will appear here</li>
+                </ul>
+            </div>
+
+            <p id="selectionLabel" class="selection-label"></p>
+
+            <div class="button-grid final-grid" aria-label="Final actions">
+                <button class="button" id="nearMeButton" onclick="handleFindNearMe()">Find Near Me</button>
+                <button class="button" id="recipeButton" onclick="handleRecipeSearch()">Give Me a Recipe</button>
+                <button class="button nopref" id="backButton" onclick="handleBack()">Back to Start</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="app-footer">© 2026 ImHungry App. All rights reserved.</footer>
+</main>
+
+<script src="js/flow-state.js"></script>
+<script src="js/final.js"></script>
+</body>
+</html>

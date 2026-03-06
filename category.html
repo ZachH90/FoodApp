@@ -10,17 +10,19 @@
   <main class="shell shell-category">
     <section class="card category-panel">
       <h1 class="title">Select a Category</h1>
+      <p class="subtitle">Pick the type of meal you are in the mood for.</p>
 
       <div class="category-container">
-        <img src="img/logodesign.png" alt="Category page" class="background-image">
+        <img src="img/logodesign.png" alt="FoodApp logo" class="background-image">
 
-        <div class="button-grid" aria-label="Food categories">
+        <div class="button-grid category-grid" aria-label="Food categories">
           <button class="button app" onclick="handleCategorySelection('App')">App</button>
           <button class="button soup" onclick="handleCategorySelection('Soup')">Soup</button>
           <button class="button salad" onclick="handleCategorySelection('Salad')">Salad</button>
-          <button class="button entree" onclick="handleCategorySelection('Entree')">Entree</button>
+          <button class="button entree" onclick="handleCategorySelection('Entrée')">Entrée</button>
           <button class="button sandwich" onclick="handleCategorySelection('Sandwich')">Sandwich</button>
           <button class="button dessert" onclick="handleCategorySelection('Dessert')">Dessert</button>
+          <button class="button side" onclick="handleCategorySelection('Side')">Side</button>
           <button class="button nopref" id="anyCategory">Anything</button>
         </div>
 
@@ -32,43 +34,15 @@
         </div>
       </div>
 
-      <a href="index.html" class="btn btn-outline">Back</a>
+      <div class="flow-actions">
+        <a href="index.html" class="btn btn-outline">Back</a>
+      </div>
     </section>
 
     <footer class="app-footer">© 2026 ImHungry App. All rights reserved.</footer>
   </main>
-
-  <script>
-    const categoryData = {
-      App: ["Bruschetta", "Mozzarella Sticks", "Loaded Nachos"],
-      Soup: ["Tomato Basil Soup", "Chicken Noodle Soup", "Miso Soup"],
-      Salad: ["Greek Salad", "Caesar Salad", "Garden Salad"],
-      Entree: ["Grilled Salmon", "Steak Bowl", "Pasta Primavera"],
-      Sandwich: ["Club Sandwich", "Chicken Panini", "Veggie Wrap"],
-      Dessert: ["Cheesecake", "Chocolate Lava Cake", "Fruit Tart"]
-    };
-
-    function renderResults(items) {
-      const resultsList = document.getElementById("resultsList");
-      resultsList.innerHTML = "";
-
-      items.forEach((item) => {
-        const listItem = document.createElement("li");
-        listItem.textContent = item;
-        resultsList.appendChild(listItem);
-      });
-    }
-
-    function handleCategorySelection(category) {
-      const picks = categoryData[category] || ["No recommendations found"]; 
-      renderResults(picks);
-    }
-
-    document.getElementById("anyCategory").addEventListener("click", () => {
-      const allPicks = Object.values(categoryData).flat();
-      const shuffled = allPicks.sort(() => Math.random() - 0.5).slice(0, 3);
-      renderResults(shuffled);
-    });
-  </script>
+  <script src="js/list-interactions.js"></script>
+  <script src="js/flow-state.js"></script>
+  <script src="js/category.js"></script>
 </body>
 </html>

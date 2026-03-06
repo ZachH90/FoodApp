@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page page-protein">
+<main class="shell shell-category">
+    <section class="card category-panel">
+        <h1 class="title">Select Protein</h1>
+        <p class="subtitle">Choose one protein option to continue.</p>
+
+        <div class="category-container">
+            <img src="img/logodesign.png" alt="FoodApp logo" class="background-image">
+
+            <div class="button-grid protein-grid" aria-label="Protein options">
+                <button class="button beef" onclick="handleProteinSelection(1, 'Beef')">Beef</button>
+                <button class="button pork" onclick="handleProteinSelection(4, 'Pork')">Pork</button>
+                <button class="button chicken" onclick="handleProteinSelection(2, 'Chicken')">Chicken</button>
+                <button class="button poultry" onclick="handleProteinSelection(3, 'Poultry')">Poultry</button>
+                <button class="button fish" onclick="handleProteinSelection(5, 'Fish')">Fish</button>
+                <button class="button seafood" onclick="handleProteinSelection(6, 'Seafood')">Seafood</button>
+                <button class="button tofu" onclick="handleProteinSelection(7, 'Tofu')">Tofu</button>
+                <button class="button beans" onclick="handleProteinSelection(8, 'Beans/Legumes')">Beans/Legumes</button>
+                <button class="button veg" onclick="handleProteinSelection(9, 'Vegetables')">Vegetables</button>
+                <button class="button dairy" onclick="handleProteinSelection(11, 'Dairy')">Dairy</button>
+                <button class="button eggs" onclick="handleProteinSelection(10, 'Eggs')">Eggs</button>
+                <button class="button nopref" onclick="handleProteinSelection(-1, 'No Preference')">No Preference</button>
+            </div>
+
+            <div class="results-box">
+                <h2>Recommendations</h2>
+                <ul id="proteinResultsList">
+                    <li>Your food choices will appear here</li>
+                </ul>
+            </div>
+        </div>
+
+        <p id="selectionLabel" class="selection-label">Selections will appear here</p>
+
+        <div class="flow-actions">
+            <a href="Calorie_Page.html" class="btn btn-outline">Back</a>
+        </div>
+    </section>
+
+    <footer class="app-footer">© 2026 ImHungry App. All rights reserved.</footer>
+</main>
+
+<script src="js/list-interactions.js"></script>
+<script src="js/flow-state.js"></script>
+<script src="js/protein.js"></script>
+</body>
+</html>

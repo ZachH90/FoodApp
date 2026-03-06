@@ -1,0 +1,1446 @@
+﻿FoodID,Food,Category,Cuisine,Calories,ProteinID,AllergyID
+1,Buffalo Wings,App,American,600,2,4; 3
+2,Mozzarella Sticks,App,American,420,11,3
+3,Deviled Eggs,App,American,140,10,4
+4,Spinach Dip,App,American,300,9; 11,3
+5,Potato Skins,App,American,150,9,3
+6,Shrimp Cocktail,App,American,70,6,6; 5
+7,Sliders,App,American,450,1; 2,3; 4
+8,Onion Rings,App,American,150,9,7; 3
+9,Jalepeno Poppers,App,American,400,9; 11,3; 4
+10,Crab Cakes,App,American,200,6,6; 4
+11,Cheese Dip,App,American,150,11,3
+12,Chicken Tenders,App,American,450,2,4; 3; 7
+13,Fried Pickles,App,American,120,9,7
+14,Corn Dogs,App,American,250,4; 1,7; 4; 3
+15,Meatballs,App,American,200,1; 4,4; 3
+16,Fried Mushrooms,App,American,100,9,7
+17,Stuffed Mushrooms,App,American,200,4; 9,3; 4
+18,Chef Salad,Salad,American,400,9,3; 4
+19,Cobb Salad,Salad,American,500,4; 9; 10,3; 4
+20,Waldorf Salad,Salad,American,250,9,8; 1
+21,Macaroni Salad,Salad,American,300,11,3; 4
+22,Potato Salad,Salad,American,290,9,3; 4
+23,Cole Slaw,Salad,American,150,9,3
+24,Seven Layer Salad,Salad,American,350,4; 10,3; 4
+25,Pasta Salad,Salad,American,300,8; 9,3; 4
+26,Ambrosia Salad,Salad,American,200,,1; 8
+27,Chicken Salad,Salad,American,350,2,3; 4
+28,Hamburger,Sandwich,American,500,1,7
+29,BBQ Ribs,Entrée,American,700,4,10
+30,Ribeye Steak,Entrée,American,600,1,
+31,Filet Mignon,Entrée,American,300,1,
+32,Salsbury Stea,Entrée,American,300,1,4
+33,Fried Chicken,Entrée,American,400,2,4; 10
+34,Grilled Chicken,Entrée,American,200,2,4
+35,Roast Turkey and Gravy,Entrée,American,350,3,3; 4; 10
+36,Meatloaf,Entrée,American,350,1; 4,3; 4; 10
+37,Pot Roast,Entrée,American,450,1,3; 4; 10
+38,Country Ham,Entrée,American,200,4,10
+39,Pork Chops,Entrée,American,300,4,10
+40,Pulled Pork Sandwich,Sandwich,American,600,4,10
+41,BBQ Brisket,Entrée,American,250,1,10
+42,Sloppy Joe,Sandwich,American,400,1; 4,7; 4
+43,Hot Dog,Sandwich,American,250,1; 4,7; 4
+44,Corned Beef and Cabbage,Entrée,American,400,1; 4,4
+45,Philly Cheesesteak,Sandwich,American,700,1,7
+46,Reuben Sandwich,Sandwich,American,700,4,4; 7
+47,Club Sandwich,Sandwich,American,600,3; 4,7
+48,BLT Sandwich,Sandwich,American,400,4,7
+49,Grilled Cheese,Entrée,American,400,11,7
+50,Shrimp and Grits,Entrée,American,600,6,6; 3
+51,Grilled Salmon,Entrée,American,350,5,5
+52,Baked Cod,Entrée,American,200,5,5
+53,Jambalaya,Entrée,American,500,1; 4; 5,5; 6
+54,Chicken Pot Pie,Entrée,American,700,2,4; 7
+55,Salisbury Steak,Entrée,American,300,1,4
+56,Apple Pie,Dessert,American,300,,7
+57,Pecan Pie,Dessert,American,500,,8
+58,Pumpkin Pie,Dessert,American,250,,7
+59,Cherry Pie,Dessert,American,300,,7
+60,Blueberry Cobbler,Dessert,American,400,,8
+61,Peach Cobbler,Dessert,American,350,,7
+62,Bannana Pudding,Dessert,American,300,,4
+63,Bread Pudding,Dessert,American,350,,4; 7
+64,Brownies,Dessert,American,200,,3; 4; 7
+65,Chocolate Chip Cookies,Dessert,American,150,,3; 4; 7
+66,Sugar Cookies,Dessert,American,150,,3; 4; 7
+67,Red Velvet Cake,Dessert,American,450,,3; 7
+68,Carrot Cake,Dessert,American,400,,3; 4
+69,Chocolate Cake,Dessert,American,450,,3; 4
+70,Angel Food Cake,Dessert,American,150,,4
+71,Lemon Meringue Pie,Dessert,American,300,,4
+72,Ice Cream Sundae,Dessert,American,300,,3
+73,Root Beer Float,Dessert,American,350,,3
+74,Boston Cream Pie,Dessert,American,450,,3; 4
+75,Queso and Chips,App,American,400,11,7
+76,Guacamole and Chips,App,Mexican,450,9,7
+77,Quesadillas,App,Mexican,700,1; 2; 11,3; 7
+78,Nachos,App,Mexican,700,1; 2; 11,7
+79,Elote,App,Mexican,200,9,
+80,Esquites,App,Mexican,250,9; 11,
+81,Taquitos,App,Mexican,150,1; 2; 4,3; 7
+82,Tostadas,App,Mexican,250,1; 2; 4,7
+83,Ceviche,App,Mexican,150,6,6
+84,Sopes,App,Mexican,400,1; 2; 8,7
+85,Gorditas,App,Mexican,500,1; 2; 4; 9,7
+86,Empanadas,App,Mexican,300,1; 2,3; 7
+87,Chiles Toreados,App,Mexican,50,9,
+88,Tamales,App,Mexican,250,1; 2; 4,3; 7
+89,Street Tacos,App,Mexican,150,1; 2; 4,7
+90,Queso Fundido,App,Mexican,600,11,7
+91,Pico de Gallo,App,Mexican,50,9,
+92,Chicharrones,App,Mexican,150,4,10
+93,Molletes,App,Mexican,600,11,3; 7
+94,Camaron al Ajillo,App,Mexican,150,6,6
+95,Tamalitos de Elote,App,Mexican,250,9,
+96,Chicken Noodle Soup,Soup,American,150,2,4
+97,New England Clam Chowder,Soup,American,250,5; 6,5; 6
+98,Manhattan Clam Chowder,Soup,American,150,6,5; 6
+99,Tomato Soup,Soup,American,150,9,
+100,Broccoli Cheddar Soup,Soup,American,300,9; 11,3; 4
+101,Potato Soup,Soup,American,250,9; 11,
+102,Corn Chowder,Soup,American,300,9; 11,
+103,Beef and Barley Soup,Soup,American,250,1; 9,1
+104,Vegetable Soup,Soup,American,150,9,
+105,Chicken Rice Soup,Soup,American,200,2,2
+106,Split Pea Soup,Soup,American,250,8,8
+107,Cream of Mushroom Soup,Soup,American,200,9; 11,3
+108,Gumbo,Soup,American,300,6,5; 6
+109,Chili,Soup,American,350,1; 4; 9,1; 4
+110,Mashed Potatos,Side,American,200,9,
+111,Macaroni and Cheese,Side,American,400,11,3
+112,Cornbread,Side,American,200,9,7
+113,Green Bean Casserole,Side,American,250,9,
+114,Baked Beans,Side,American,200,8,8
+115,French Fries,Side,American,350,9,
+116,Roasted Vegetables,Side,American,150,9,
+117,Corn on the Cob,Side,American,150,9,
+118,Stuffing,Side,American,250,2; 3,7
+119,Pozole Rojo,Soup,Mexican,300,4,10
+120,Pozole Verde,Soup,Mexican,300,4,10
+121,Menudo,Soup,Mexican,350,4,10
+122,Caldo de Pollo,Soup,Mexican,200,2,
+123,Caldo de Rez,Soup,Mexican,200,1,
+124,Sopa de Fideo,Soup,Mexican,200,9,7
+125,Sopa de Abondigas,Soup,Mexican,250,1; 4,4; 7
+126,Sopa de Tortilla,Soup,Mexican,200,2; 9,7
+127,Soa de Mariscos,Soup,Mexican,300,6,6
+128,Sopa Tarasca,Soup,Mexican,250,9,7
+129,Caldo de Camaron,Soup,Mexican,200,5; 6,6
+130,Sopa de Lentejas,Soup,Mexican,250,8,
+131,Crema de Elote,Soup,Mexican,250,9; 11,3
+132,Crema de Poblano,Soup,Mexican,250,9; 11,3
+133,Caldo Tlalpeno,Soup,Mexican,200,2; 9,
+134,Ensalada de Nopales,Salad,Mexican,150,9,
+135,Ensalada de Pollo,Salad,Mexican,350,2,
+136,Ensalada de Fruta,Salad,Mexican,150,,
+137,Esquites Salad,Salad,Mexican,250,11,
+138,Avocado Salad,Salad,Mexican,300,9,
+139,Aguacate y Naranja Salad,Salad,Mexican,250,9,
+140,Taco Salad,Salad,Mexican,700,1; 2; 4,7
+141,Ensalada de Quinoa Mexicana,Salad,Mexican,300,9,
+142,Pico de Gallo Salad,Salad,Mexican,50,9,
+143,Grilled Shrimp Salad,Salad,Mexican,350,6,6
+144,Ensalada de Betabel,Salad,Mexican,150,9,
+145,Jicama Salad,Salad,Mexican,100,9,
+146,Ensalada de Arroz Mexicana,Salad,Mexican,350,9,
+147,Ensalada de Atun,Salad,Mexican,300,9,5
+148,Chili Rellenos,Entrée,Mexican,400,9; 10; 11,3; 4; 7
+149,Tacos,Entrée,Mexican,250,1; 2; 3; 4; 5; 6; 9; 11,7
+150,Enchiladas,Entrée,Mexican,500,1; 2; 3; 4; 9; 10; 11,3
+151,Tamales,Entrée,Mexican,300,1; 2; 3; 4; 9; 11,10
+152,Quesadillas,Entrée,Mexican,500,1; 2; 9; 11,3; 7
+153,Fajitas,Entrée,Mexican,600,1; 2; 4; 9,3
+154,Mole Poblano,Entrée,Mexican,600,2; 3; 9; 10; 11,1; 2
+155,Carnitas,Entrée,Mexican,600,4,10
+156,Barbacoa,Entrée,Mexican,500,1,
+157,Birria,Entrée,Mexican,500,1; 4,
+158,Carne Asada,Entrée,Mexican,500,1,10
+159,Al Pastor,Entrée,Mexican,400,4,10
+160,Cochinita Pibil,Entrée,Mexican,500,4,10
+161,Chilaquiles,Entrée,Mexican,500,9; 10; 11,3
+162,Huevos Rancheros,Entrée,Mexican,400,9; 10; 11,3; 4
+163,Machaca con Huevos,Entrée,Mexican,450,1; 10,4
+164,Tampiquena,Entrée,Mexican,650,1; 9; 11,3
+165,Pescado a la Veracruzana,Entrée,Mexican,350,5; 9,5
+166,Camarones a la Diabla,Entrée,Mexican,400,6; 9,6
+167,Arrachera,Entrée,Mexican,600,1,
+168,Pollo en Pipian,Entrée,Mexican,500,2; 9,1; 2
+169,Mexican Rice,Side,Mexican,220,9,
+170,Refried Beans,Side,Mexican,220,8,
+171,Black Beans,Side,Mexican,220,8,
+172,Mexican Slaw,Side,Mexican,100,9,
+173,Calabacitas,Side,Mexican,100,9,
+174,Cilantro Lime Rice,Side,Mexican,260,9,
+175,Flan,Dessert,Mexican,140,10; 11,3; 4
+176,Arroz con Leche,Dessert,Mexican,260,11,3
+177,Tres Leches,Dessert,Mexican,315,10; 11,3; 4; 7
+178,Churros,Dessert,Mexican,130,10; 11,3; 4; 7
+179,Bunuelos,Dessert,Mexican,230,10; 11,3; 4; 7
+180,Capirotada,Dessert,Mexican,550,10; 11,1; 3; 4; 7
+181,Pan de Muerto,Dessert,Mexican,260,10; 11,3; 4; 7
+182,Rosca de Reyes,Dessert,Mexican,320,10; 11,3; 4; 7
+183,Coyotas,Dessert,Mexican,275,11,3; 7
+184,Polvorones,Dessert,Mexican,160,11,3; 7
+185,Alegrias,Dessert,Mexican,130,8,1
+186,Camotes,Dessert,Mexican,115,11,
+187,Glorias,Dessert,Mexican,130,10; 11,3
+188,Jericalla,Dessert,Mexican,220,10; 11,3; 4
+189,Paletas,Dessert,Mexican,100,11,3; 8
+190,Torta,Sandwich,Mexican,600,4; 8; 9; 11,3; 7; 10
+191,Guajolota,Sandwich,Mexican,550,8; 9; 11,3; 4; 7
+192,Pambazo,Sandwich,Mexican,800,4; 8; 9; 11,3; 7; 10
+193,Cemita Poblana,Sandwich,Mexican,890,4; 9; 11,3; 7; 10
+194,Torta Ahogada,Sandwich,Mexican,500,4; 9,7; 10
+195,Mollete,Sandwich,Mexican,360,8; 11,3; 7
+196,Torta Cubana,Sandwich,Mexican,715,1; 2; 4; 8; 9; 11,3; 4; 7; 10
+197,Torta Pastor,Sandwich,Mexican,690,4; 9,7; 10
+198,Empalme,Sandwich,Mexican,270,4; 8; 9; 11,3; 7; 10
+199,Torta Milanesa,Sandwich,Mexican,650,1; 2; 9; 11,3; 4; 7
+200,Torta de la Barda,Sandwich,Mexican,750,1; 4; 8; 9; 11,3; 7; 10
+201,Torta de Pierna,Sandwich,Mexican,700,4; 9; 11,3; 7; 10
+202,Torta Hamburguesa,Sandwich,Mexican,650,1; 9; 11,3; 4; 7
+203,Vegan Torta,Sandwich,Mexican,500,7; 8; 9,7; 9
+204,Rumaki,App,Canadian,80,4; 10,4; 10
+205,Cretons,App,Canadian,80,4,10
+206,Garlic Fingers,App,Canadian,450,7; 11,3; 7
+207,Quebecois Pea Soup,Soup,Canadian,450,4; 8; 9,10; 8; 9
+208,Rice and Duck Confit Soup,Soup,Canadian,550,3; 9,4; 7
+209,West Coast Fish Chowder,Soup,Canadian,450,5; 6; 11,3; 5; 6; 7
+210,Fricot,Soup,Canadian,368,2; 9,4; 7
+211,Cream of Celery Soup w/ Scallops,Soup,Canadian,400,6; 11; 9,3; 6; 7
+212,Curried Squash Soup,Soup,Canadian,200,9,7
+213,Vegetable Fava Bean Soup,Soup,Canadian,200,8; 9,7
+214,Squash Beer and Maple Soup,Soup,Canadian,275,9,7
+215,Newfoundland Lobster Salad,Salad,Canadian,325,6; 9; 11,3; 6
+216,Frisee Salad with Maple Vinaigrette,Salad,Canadian,300,9,
+217,Steak Stilton and Alvocado Salad,Salad,Canadian,500,1; 9; 11,1; 3
+218,Green Salad with Alberta Vinaigrette,Salad,Canadian,175,9,
+219,Montreal Smoked Meat Sandwich,Sandwich,Canadian,550,1; 7; 11,1; 3; 7
+220,Peameal Bacon Sandwich,Sandwich,Canadian,475,4; 7; 11,3; 7; 10
+221,Wilensky Special,Sandwich,Canadian,425,1; 4; 7,1; 4; 7; 10
+222,Halifax Donair,Sandwich,Canadian,600,1; 7; 11,1; 3; 7
+223,Lobster Roll,Sandwich,Canadian,450,6; 7; 11,3; 6; 7
+224,Kubie Burger,Sandwich,Canadian,550,1; 4; 7,1; 10; 7
+225,Jambon Beurre,Sandwich,Canadian,375,4; 7; 11,3; 7; 10
+226,Poutine,Entrée,Canadian,600,9; 11,3; 7
+227,Tourtiere,Entrée,Canadian,700,1; 4; 9,4; 7; 10
+228,Smoked Meat Plate,Entrée,Canadian,900,1,1; 7
+229,Cedar Plank Salmon,Entrée,Canadian,400,5; 9,5
+230,Duck with Saskatoon Berry Sauce,Entrée,Canadian,500,3; 9,3; 4; 8
+231,Grilled Elk Steak,Entrée,Canadian,140,1,
+232,Maple Braised Short Ribs,Entrée,Canadian,400,1; 9,1; 3
+233,Seared Scallops with Bacon Jam,Entrée,Canadian,350,4; 6; 9,3; 6; 10
+234,Vegetarian Bannock Bowl,Entrée,Canadian,350,8; 9; 11,3; 7
+235,Nanaimo Bars,Dessert,Canadian,320,11,1; 2; 3; 4; 7
+236,Butter Tarts,Dessert,Canadian,275,10; 11,3; 4; 7
+237,BeaverTails,Dessert,Canadian,400,10; 11,3; 4; 7
+238,Pouding Chomeur,Dessert,Canadian,425,10; 11,3; 4; 7
+239,Tarte au Sucre,Dessert,Canadian,375,10; 11,3; 4; 7
+240,Timbits,Dessert,Canadian,80,10; 11,3; 4; 7
+241,Flapper Pie,Dessert,Canadian,325,10; 11,3; 4; 7
+242,Saskatoon Berry Pie,Dessert,Canadian,350,9; 10; 11,3; 4; 7; 8
+243,Figgy Duff,Dessert,Canadian,275,9; 10; 11,3; 4; 7
+244,Jo Louis Cake,Dessert,Canadian,375,10; 11,3; 4; 7
+245,Blueberry Grunt,Dessert,Canadian,300,9; 10; 11,3; 4; 7; 8
+246,Billy Miner Pie,Dessert,Canadian,475,11,3; 7
+247,Cinnamon Sugar Bannock,Dessert,Canadian,300,10; 11,3; 4; 7
+248,Arepa Rellenas,App,Latin,350,9; 11,3; 7
+249,Tostones,App,Latin,300,9,
+250,Ceviche de Camaron,App,Latin,200,6; 9,6; 9
+251,Tequenos,App,Latin,240,7; 11,3; 4; 7
+252,Yuca Frita,App,Latin,450,9,
+253,Pastelitos,App,Latin,310,1; 4; 9; 11,3; 4; 7; 10
+254,Bolitas de Queso,App,Latin,220,11,3; 4
+255,Patacones con Hogao,App,Latin,350,9,
+256,Anticuchos,App,Latin,240,1; 9,10
+257,Papa a la Huancaina,App,Latin,300,9; 11,3
+258,Tamales Colombianos,App,Latin,320,2; 4; 8; 9,3; 4; 7; 10
+259,Pan de Bono,App,Latin,200,11,3; 7
+260,Coxinhas,App,Latin,270,2; 9; 10; 11,3; 4; 7
+261,Sancocho,Soup,Latin,450,1; 2; 9,10
+262,Locro de Papa,Soup,Latin,320,9; 11,3
+263,Ajiaco,Soup,Latin,375,2; 9,
+264,Caldo Verde,Soup,Latin,275,4; 9,10
+265,Mondongo,Soup,Latin,420,1; 4; 9,10
+266,Sopa de Mani,Soup,Latin,330,8; 9,2
+267,Chupe de Camarones,Soup,Latin,475,6; 9; 11,3; 6
+268,Sopa de Frijoles,Soup,Latin,275,8; 9,
+269,Sopa de Paraguaya,Soup,Latin,300,9; 11,3; 7
+270,Sopa de Pescado,Soup,Latin,275,5; 9,5
+271,Sopa de Tomate Criolla,Soup,Latin,200,9,
+272,Ensalada de Palmitos,Salad,Latin,175,9,
+273,Ensalada de Quinoa,Salad,Latin,275,8; 9,8
+274,Ensalada de Fruta Tropicales,Salad,Latin,160,9,
+275,Ensalada de Garbanzos,Salad,Latin,220,8; 9,
+276,Ensalada Criolla,Salad,Latin,120,9,
+277,Ensalada de Maiz,Salad,Latin,200,9,
+278,Ensalada de Espinaca,Salad,Latin,175,9,
+279,Choripan,Sandwich,Latin,450,4; 9; 11,3; 7; 10
+280,Arepa Sandwich,Sandwich,Latin,350,9; 11,3; 7
+281,Pan con Chicarron,Sandwich,Latin,475,4; 9,7; 10
+282,Sandwich Cubano,Sandwich,Latin,550,1; 4; 9; 11,3; 7; 10
+283,Ropa Vieja,Entrée,Latin,450,1; 9,
+284,Feijoada,Entrée,Latin,650,1; 4; 8; 9,10
+285,Arroz con Pollo,Entrée,Latin,500,2; 9,
+286,Pollo a la Brasa,Entrée,Latin,550,2; 9,
+287,Pernil Asado,Entrée,Latin,550,4; 9,10
+288,Moqueca,Entrée,Latin,500,5; 6; 9; 11,3; 5; 6
+289,Picadillo,Entrée,Latin,475,1; 9,
+290,Bistec Encebollado,Entrée,Latin,450,1; 9,
+291,Chuletas de Cerdo,Entrée,Latin,500,4; 9,10
+292,Paella Latina,Entrée,Latin,500,5; 6; 9,5; 6
+293,Churrasco,Entrée,Latin,550,1; 9,
+294,Lomo Saltado,Entrée,Latin,550,1; 9,
+295,Pescado Frito,Entrée,Latin,500,5; 9,5
+296,Asado Argentino,Entrée,Latin,650,1; 9,
+297,Cazuella de Mariscos,Entrée,Latin,550,6; 9,6
+298,Dulce de Leche,Dessert,Latin,120,11,3
+299,Alfajores,Dessert,Latin,175,10; 11,3; 4; 7
+300,Pastel de Choclo,Dessert,Latin,275,9; 10; 11,3; 4; 7
+301,Cocadas,Dessert,Latin,160,11,3
+302,Suspiro Limeno,Dessert,Latin,325,10; 11,3; 4
+303,Helado de Maracuya,Dessert,Latin,220,11,3
+304,Torta de Platano,Dessert,Latin,275,9; 10; 11,3; 4; 7
+305,Natilla Colombiana,Dessert,Latin,275,10; 11,3; 4
+306,Manjar Blanco,Dessert,Latin,175,11,3
+307,Pan de Yuca Dulce,Dessert,Latin,200,11,3; 7
+308,Har Gow (Shrimp Dumplings),App,Chinese,50,6; 9,6; 7
+309,Siu Mai (Pork and Shrimp Dumplings),App,Chinese,60,4; 6; 9,6; 7; 10
+310,Char Siu Bao (BBQ Pork Buns),App,Chinese,170,4; 9,7; 10
+311,Xiao Long Bao (Soup Dumplings),App,Chinese,70,4; 9,7; 10
+312,Lo Bak Go (Turnip Cake),App,Chinese,190,9,7
+313,Cheung Fun (Rice Noodle Rolls),App,Chinese,160,9,7
+314,Lotus Root Chips,App,Chinese,130,9,
+315,Century Egg with Tofu,App,Chinese,100,7; 10,4; 9
+316,Kou Shui Ji (Cold Sichuan Chicken),App,Chinese,270,2; 9,
+317,Spicy Cucumber Salad,App,Chinese,60,9,
+318,Tea Smoked Duck Slices,App,Chinese,230,3,
+319,Spare Ribs with Black Bean Sauce,App,Chinese,330,4; 8; 9,8; 9; 10
+320,Fried Wontons,App,Chinese,50,4; 9; 10,4; 7; 10
+321,Jian Dui (Sesame Balls),App,Chinese,140,8; 9,7; 9
+322,Pickled Mustard Greens,App,Chinese,30,9,
+323,Hot and Sour Soup,Soup,Chinese,100,9; 10,4; 9
+324,Egg Drop Soup,Soup,Chinese,70,10,4
+325,Wonton Soup,Soup,Chinese,160,4; 9; 10,4; 7; 10
+326,Tomato and Egg Soup,Soup,Chinese,90,9; 10,4
+327,Lotus Root and Pork Rib Soup,Soup,Chinese,200,4; 9,10
+328,Winter Melon Soup,Soup,Chinese,70,9,
+329,Seaweed and Egg Soup,Soup,Chinese,60,9; 10,4
+330,Black Chicken Herbal Soup,Soup,Chinese,160,2,
+331,Snow Fungus and Goji Berry Soup,Soup,Chinese,90,9,8
+332,Fish Head Tofu Soup,Soup,Chinese,200,5; 7; 9,5; 9
+333,Pork Rib and Corn Soup,Soup,Chinese,230,4; 9,10
+334,Duck and Taro Soup,Soup,Chinese,270,3; 9,
+335,Sichuan Spicy Beef Soup,Soup,Chinese,300,1; 9,
+336,Chicken and Mushroom Soup,Soup,Chinese,170,2; 9,
+337,Pickled Mustard Greens and Pork Soup,Soup,Chinese,200,4; 9,10
+338,Kung Pao Chicken,Entrée,Chinese,330,2; 8; 9,2; 9
+339,Mapo Tofu,Entrée,Chinese,375,4; 7; 9,9; 10
+340,Sweet and Sour Pork,Entrée,Chinese,425,4; 9,10
+341,Peking Duck,Entrée,Chinese,375,3,
+342,General Tsos Chicken,Entrée,Chinese,450,2; 9,7; 9
+343,Beef with Broccoli,Entrée,Chinese,275,1; 9,9
+344,Twice Cooked Pork,Entrée,Chinese,375,4; 9,9; 10
+345,Sichuan Boiled Fish,Entrée,Chinese,425,5; 9,5; 9
+346,Lions Head Meatballs,Entrée,Chinese,330,4; 9,7; 10
+347,Braised Pork Belly,Entrée,Chinese,550,4; 9,10
+348,Shrimp with Lobster Sauce,Entrée,Chinese,275,6; 9; 10,4; 6; 9
+349,Chicken with Cashews,Entrée,Chinese,330,3; 8; 9,1; 9
+350,Beef Chow Fun,Entrée,Chinese,475,1; 9,7; 9
+351,Eggplant in Garlic Sauce,Entrée,Chinese,275,9,9
+352,Salt and Pepper Shrimp,Entrée,Chinese,330,6; 9,6
+353,Crispy Duck with Plum Sauce,Entrée,Chinese,425,3,
+354,Moo Shu Pork,Entrée,Chinese,375,4; 9; 10,4; 7; 10
+355,Orange Chicken,Entrée,Chinese,450,2; 9,7; 9
+356,Beef in Black Pepper Sauce,Entrée,Chinese,325,1; 9,9
+357,Chicken with Black Bean Sauce,Entrée,Chinese,300,2; 8; 9,9
+358,Spicy Dry Pot,Entrée,Chinese,450,1; 2; 4; 6; 9,9; 10
+359,Cantonese Steamed Chicken,Entrée,Chinese,275,2,
+360,Stir Fried Bok Choy,Side,Chinese,60,9,9
+361,Garlic Green Beans,Side,Chinese,90,9,9
+362,Wood Ear Mushroom Salad,Salad,Chinese,50,9,9
+363,Stir Fried Napa Cabbage,Side,Chinese,60,9,9
+364,Chinese Pickled Vegetables,Side,Chinese,30,9,
+365,Braised Tofu with Mushrooms,Side,Chinese,160,7; 9,9
+366,Hong Dou Tang (Red Bean Soup),Dessert,Chinese,160,8,9
+367,Zhi Ma Hu (Black Sesame Soup),Dessert,Chinese,225,8,
+368,Mango Pudding,Dessert,Chinese,165,9; 11,3
+369,Dan Tat (Egg Tarts),Dessert,Chinese,200,10; 11,3; 4; 7
+370,Ma Lai Go (Steamed Spunge Cake),Dessert,Chinese,225,10; 11,4; 7
+371,Gui Hua Gao (Osmanthus Jelly),Dessert,Chinese,90,9,
+372,Tang Yuan (Sweet Glutinous Rice Balls),Dessert,Chinese,70,8,9
+373,Xing Ren Dou Fu (Almond Tofu),Dessert,Chinese,130,7; 11,1; 9
+374,Edamame,App,Japanese,120,8,9
+375,Gyoza,App,Japanese,50,4; 9,4; 7; 9
+376,Agedashi Tofu,App,Japanese,160,7; 9,7; 9
+377,Yakitori,App,Japanese,100,2,7; 9
+378,Tamagoyaki,App,Japanese,100,10,4; 7; 9
+379,Sunomono,App,Japanese,40,9,7; 9
+380,Takoyaki,App,Japanese,65,6; 9; 10,4; 5; 6; 7; 9
+381,Ebi Tempura,App,Japanese,90,6; 9,4; 6; 7; 9
+382,Vegatable Tempura,App,Japanese,70,9,4; 7; 9
+383,Chawanmushi,App,Japanese,90,5; 6; 10,4; 5; 6; 9
+384,Tsukemono,App,Japanese,20,9,9
+385,Okonomiyaki Bites,App,Japanese,80,4; 9; 10,4; 5; 7; 9
+386,Shishito Peppers,App,Japanese,20,9,9
+387,Sashimi Sampler,App,Japanese,175,5; 6,5
+388,Korokke,App,Japanese,170,4; 9; 10,3; 4; 7; 9
+389,Karaage,App,Japanese,80,2; 10,4; 7; 9
+390,Miso Soup,Soup,Japanese,50,7; 9,5; 9
+391,Tonjiru,Soup,Japanese,140,4; 9,5; 9; 10
+392,Suimono,Soup,Japanese,40,5; 9,5; 9
+393,Ozoni,Soup,Japanese,175,9; 10,4; 5; 9
+394,Kenchi Jiru,Soup,Japanese,120,7; 9,5; 9
+395,Dobin Mushi,Soup,Japanese,60,5; 6; 9,5; 6; 9
+396,Nameko Miso Soup,Soup,Japanese,60,7; 9,5; 9
+397,Shijimi Miso Soup,Soup,Japanese,60,6; 7; 9,5; 6; 9
+398,Asari Miso Soup,Soup,Japanese,60,6; 7; 9,5; 6; 9
+399,Tamago Toji Soup,Soup,Japanese,70,9; 10,4; 5; 9
+400,Sakana Jiru,Soup,Japanese,120,5; 9,5; 9
+401,Kani Miso Soup,Soup,Japanese,135,6; 7; 9,5; 6; 9
+402,Hoto,Soup,Japanese,275,9,7; 9
+403,Udon Soup,Soup,Japanese,275,9,7; 9
+404,Soba Soup,Soup,Japanese,225,9,7; 9
+405,Gohan,Side,Japanese,160,,
+406,Onigiri,Side,Japanese,200,5,5; 9
+407,Hijiki Salad,Salad,Japanese,80,8; 9,9
+408,Kinpira Gobo,Side,Japanese,90,9,9
+409,Nasu Dengaku,Side,Japanese,135,9,9
+410,Spinach Ohitashi,Side,Japanese,40,9,9
+411,Tamago Yaki,Side,Japanese,100,10,4; 7; 9
+412,Miso Eggplant,Side,Japanese,130,9,9
+413,Yaki Onigiri,Side,Japanese,210,,9
+414,Sushi Assortment,Entrée,Japanese,350,5; 6; 10,4; 5; 6; 7; 9
+415,Sashimi Platter,Entrée,Japanese,225,5; 6,5
+416,Tempura Teishoku,Entrée,Japanese,550,6; 9, 4; 5; 6; 7; 9
+417,Tonkatsu,Entrée,Japanese,450,4; 10,4; 7; 9; 10
+418,Chicken Karaage,Entrée,Japanese,375,2; 10,4; 7; 9
+419,Unagi Don,Entrée,Japanese,550,5,5; 7; 9
+420,Gyudon,Entrée,Japanese,550,1,5; 7; 9
+421,Katsudon,Entrée,Japanese,650,4; 10,4; 5; 7; 9; 10
+422,Oyakodon,Entrée,Japanese,550,2; 10,4; 5; 7; 9
+423,Chirashi Sushi,Entrée,Japanese,500,5; 6; 10,4; 5; 6; 7; 9
+424,Yakisoba,Entrée,Japanese,550,1; 2; 9,7; 9
+425,Yaki Udon,Entrée,Japanese,550,1; 2; 9,7; 9
+426,Shabu Shabu,Entrée,Japanese,450,1; 9,5; 7; 9; 10
+427,Sukiyaki,Entrée,Japanese,550,1; 7; 9; 10,4; 5; 7; 9; 10
+428,Teriyaki Chicken,Entrée,Japanese,325,2,7; 9
+429,Salmon Teriyaki,Entrée,Japanese,375,5,5; 7; 9
+430,Miso Marinated Black Cod,Entrée,Japanese,325,5,5; 9
+431,Okonomiyaki,Entrée,Japanese,550,4; 9; 10,4; 5; 7; 9
+432,Takoyaki Plate,Entrée,Japanese,375,6; 9; 10,4; 5; 6; 7; 9
+433,Ebi Fry,Entrée,Japanese,90,6; 10,4; 6; 7; 9
+434,Hamachi Kama,Entrée,Japanese,275,5,5
+435,Gindara Saikyo Yaki,Entrée,Japanese,325,5,5; 9
+436,Hoto Nabe,Entrée,Japanese,275,9,7; 9
+437,Chawanmushi with Seafood,Entrée,Japanese,110,5; 6; 10,4; 5; 6; 9
+438,Teppanyaki Beef,Entrée,Japanese,450,1,5; 7; 9
+439,Mochi,Dessert,Japanese,100,,7
+440,Daifuku,Dessert,Japanese,130,8,3; 7
+441,Dorayaki,Dessert,Japanese,220,10; 11,3; 4; 7
+442,Taiyaki,Dessert,Japanese,240,10; 11,3; 4; 7
+443,Matcha Ice Cream,Dessert,Japanese,160,11,3
+444,Yokan,Dessert,Japanese,160,8,7
+445,Kuzumochi,Dessert,Japanese,130,,7
+446,Warabi Mochi,Dessert,Japanese,115,,7
+447,Sunomono,Salad,Japanese,40,9,7; 9
+448,Seaweed Salad,Salad,Japanese,60,9,9
+449,Goma ae,Salad,Japanese,90,9,1; 9
+450,Daikon Salad,Salad,Japanese,50,9,9
+451,Mini Meat Pies,App,Australian,180,1; 9; 11,3; 4; 7
+452,Sausage Rolls,App,Australian,150,1; 4; 11,3; 4; 7
+453,Damper Bread Bites,App,Australian,90,11,3; 7
+454,Salt and Pepper Calimari,App,Australian,120,6,6; 7
+455,Mini Lamington Savory Bites,App,Australian,100,11,3; 4; 7; 8
+456,Vegemits and Cheese Crackers,App,Australian,80,11,3; 7; 9
+457,Mini Prawn Cocktails,App,Australian,70,6,3; 6
+458,Grilled Kangaroo Skewers,App,Australian,110,,
+459,Cheese and Macadamian Nut Platter,App,Australian,200,9; 11,1; 3
+460,Pumpkin and Feta Tartlets,App,Australian,130,9; 11,3; 4; 7
+461,Mini Chicken Schnitzel Sliders,App,Australian,160,2; 11,3; 4; 7
+462,Beetroot and Goat Cheese Crustini,App,Australian,90,9; 11,3; 7
+463,Mini Aussie Burgers,App,Australian,180,1; 9; 11,3; 4; 7
+464,Smoked Salmon on Damper Rounds,App,Australian,100,5; 11,3; 5; 7
+465,Bush Tomato Bruschetta,App,Australian,90,9,7
+466,Pumpkin Soup,Soup,Australian,150,9; 11,3
+467,Pea and Ham Soup,Soup,Australian,220,4; 8; 9,3; 10
+468,Potato and Leek Soup,Soup,Australian,180,9; 11,3
+469,Seafood Chowder,Soup,Australian,250,6; 11,3; 6; 5
+470,Barrundi Fish Soup,Soup,Australian,180,5; 9,3; 5
+471,Lamb and Barley Soup,Soup,Australian,240,8; 9,3; 7
+472,Tomato and Bush Basil Soup,Soup,Australian,140,9,
+473,Sweet Corn and Chicken Soup,Soup,Australian,160,2; 9,3
+474,Kangaroo Tail Soup,Soup,Australian,230,9,
+475,Beetroot and Feta Salad,Salad,Australian,180,9; 11,3
+476,Pumpkin and Macadamia Salad,Salad,Australian,220,9,1; 3
+477,Prawn and Mango Salad,Salad,Australian,200,6; 9,6
+478,Aussie Potato Salad,Salad,Australian,250,9; 10; 11,3; 4
+479,Grilled Kangaroo Salad,Salad,Australian,210,9,
+480,Barrundi and Citrus Salad,Salad,Australian,190,5; 9,5
+481,Bush Herb Chicken Salad,Salad,Australian,220,2; 9,
+482,Vegemite and Cheese Sandwich,Sandwich,Australian,210,11,3; 7; 9
+483,Steak Sandwich,Sandwich,Australian,450,1; 9,7
+484,Chicken Schnitzel Sandwich,Sandwich,Australian,400,2; 11,3; 4; 7
+485,Lamb and Mint Sandwich,Sandwich,Australian,420,9,7
+486,Barrundi Fish Sandwich,Sandwich,Australian,350,5; 9,5; 7
+487,Kangaroo Steak Sandwich,Sandwich,Australian,380,9,7
+488,Prawn Roll,Sandwich,Australian,320,6; 9,6; 7
+489,Roast Beef and Bush Tomato Relish Sandwich,Sandwich,Australian,400,1; 9,7
+490,Grilled Barrundi,Entrée,Australian,280,5,5
+491,Saltwater Crocodile Fillet,Entrée,Australian,250,,
+492,Prawn and Garlic Skewer,Entrée,Australian,120,6,6
+493,Tasmanian Salmon,Entrée,Australian,300,5,5
+494,Roast Lamb with Mint Sauce,Entrée,Australian,450,,
+495,Kangaroo Steak,Entrée,Australian,300,,
+496,Beef and Guinness Pie,Entrée,Australian,500,1; 9,3; 4; 7
+497,Lamb Chop with Bush Tomato Relish,Entrée,Australian,350,9,
+498,Emu Fillet,Entrée,Australian,280,,
+499,Wallaby Ragu,Entrée,Australian,400,,
+500,Kangaroo Tail Stew,Entrée,Australian,420,9,
+501,Pumpkin Risotto,Entrée,Australian,380,9; 11,3
+502,Vegetable Stir Fry with Lemon Myrtle,Entrée,Australian,250,9,9
+503,Barrundi Curry,Entrée,Australian,360,5; 9,3; 5
+504,Bush Herb Pasta,Entrée,Australian,400,9; 11,3; 7
+505,Pavlova,Dessert,Australian,220,10; 11,3; 4
+506,Lamingtons,Dessert,Australian,190,11,3; 4; 7; 8
+507,Anzac Biscuits,Dessert,Australian,120,8; 11,3; 4; 7
+508,Vannila Slice,Dessert,Australian,250,11,3; 4; 7
+509,Sticky Date Pudding,Dessert,Australian,350,8; 11,3; 4; 7
+510,Tim Tim Cheesecake,Dessert,Australian,400,11,3; 4; 7
+511,Caramel Slice,Dessert,Australian,300,11,3; 4; 7
+512,Neenish Tarts,Dessert,Australian,180,10; 11,3; 4; 7
+513,Bush Tucker Cheesecake,Dessert,Australian,380,11,3; 4; 7
+514,Golden Syrup Dumplings,Dessert,Australian,320,10; 11,3; 4; 7
+515,Por Pia Tod (Spring Rolls),App,Asian,100,9; 10,4; 7; 9
+516,Chicken Satay,App,Asian,150,2,9
+517,Shrimp Toast,App,Asian,120,6; 11,4; 6; 7
+518,Som Tum Bites,App,Asian,80,9,2
+519,Tod Mun Pla (Thai Fish Cakes,App,Asian,90,5; 10,4; 5
+520,Goi Cuon (Summer Rolls),App,Asian,70,2; 6; 9,6; 9
+521,Bahn Mi Sliders,App,Asian,180,4; 9,4; 7; 9
+522,Vietnamese Shrimp Chips,App,Asian,60,6,6
+523,Mini Pho Cups,App,Asian,90,1; 2; 9,5; 6; 7; 9
+524,Grilled Lemongrass Pork Skewers,App,Asian,130,4,9; 10
+525,Lumpia,App,Asian,100,4; 9,4; 7; 9
+526,Ukoy (Shrimp Fritters),App,Asian,150,6; 10,4; 6; 7
+527,Mini Pancit Cups,App,Asian,120,4; 9,7; 9
+528,Kimchi Pancakes,App,Asian,140,9,7; 9
+529,Japchae Noodle Bites,App,Asian,110,4; 9,7; 9
+530,Mini Bulgogi Lettuce Wraps,App,Asian,90,1; 9,9
+531,Tteokbokki Skewers,App,Asian,160,9,7; 9
+532,Seaweed Rice Balls,App,Asian,80,9,9
+533,Malaysian Curry Puffs,App,Asian,150,2; 4; 9,4; 7; 9
+534,Indonesian Chicken Satay,App,Asian,150,2,2; 9
+535,Singaporean Chili Crab Bites,App,Asian,130,6,6; 9
+536,Burmese Tea Leaf Salad Cups,App,Asian,90,9,1; 9
+537,Cambodian Fish Amok Bites,App,Asian,100,5,4; 5; 9
+538,Tom Yum Goong,Soup,Asian,120,6; 9,6; 9
+539,Tom Kha Gai,Soup,Asian,180,2; 11,3; 9
+540,Gaeng Jued,Soup,Asian,100,2; 9,9
+541,Tom Saap,Soup,Asian,150,4; 9,9
+542,Thai Pumpkin Soup,Soup,Asian,130,9,9
+543,Pho Bo,Soup,Asian,350,1; 9,7; 9
+544,Pho Ga,Soup,Asian,300,2; 9,7; 9
+545,Canh Chua Ca,Soup,Asian,180,5; 9,5; 9
+546,Bun Rieu,Soup,Asian,320,4; 6; 9,6; 7; 9
+547,Canh Rau Muong,Soup,Asian,90,9,9
+548,Sinigang na Baboy,Soup,Asian,250,4; 9,9; 10
+549,Sinigang na Hipon,Soup,Asian,220,6; 9,6; 9
+550,Bulalo,Soup,Asian,450,1; 9,9
+551,Tinola,Soup,Asian,200,2; 9,9
+552,La Paz Barchoy,Soup,Asian,400,4; 9,7; 9; 10
+553,Kimchi Jjigae,Soup,Asian,220,9,9
+554,Samgyetang,Soup,Asian,350,2,9
+555,Sundabu Jjigae,Soup,Asian,280,6; 7,9
+556,Galbitang,Soup,Asian,300,2,9
+557,Laksa,Soup,Asian,400,5,6; 7; 9
+558,Soto Ayam,Soup,Asian,250,5,9
+559,Mohinga,Soup,Asian,350,2; 11,5; 7; 9
+560,Nom Banh Chok,Soup,Asian,300,5,5; 7; 9
+561,Khao Soi,Soup,Asian,400,2; 11,7; 9
+562,Som Tum Salad,Salad,Asian,150,9,2
+563,Yum Woon Sen,Salad,Asian,220,6; 9,6; 9
+564,Yam Neua (Thai Beef Salad),Salad,Asian,250,1; 9,9
+565,Larb Gai,Salad,Asian,230,2; 9,9
+566,Yam Som O (Pomelo Salad),Salad,Asian,180,9,2
+567,Goi Ga,Salad,Asian,200,2; 9,9
+568,Goi Ngo Sen (Lotus Stem Salad),Salad,Asian,190,9,1; 9
+569,Bun Salad (Noodle Salad),Salad,Asian,250,2; 4; 9,7; 9
+570,Green Mango Salad,Salad,Asian,160,9,2
+571,Herb and Tofu Salad,Salad,Asian,180,7; 9,9
+572,Ensaladang Talong,Salad,Asian,120,9,
+573,Ensaladang Mangga,Salad,Asian,140,9,2
+574,Kinilaw,Salad,Asian,220,6,5; 9
+575,Oi Muchim,Salad,Asian,80,9,9
+576,Japchae Salad,Salad,Asian,220,4; 9,7; 9
+577,Banh Mi Thit,Sandwich,Asian,450,4; 9,7; 9
+578,Banh Mi Ga,Sandwich,Asian,420,2; 9,7; 9
+579,Banh Mi Cha Lua,Sandwich,Asian,430,4; 9,7; 9
+580,Banh Mi Xiu Mai,Sandwich,Asian,440,4; 9,7; 9
+581,Pan de Sal Sandwich,Sandwich,Asian,260,2; 4,7
+582,Filipino Breakfeast Sandwich,Sandwich,Asian,400,4; 10,4; 7
+583,Adobo Pork Sandwich,Sandwich,Asian,420,4,7; 10
+584,Chicken Tocino Sandwich,Sandwich,Asian,380,2,7
+585,Thai Chicken Satay Sandwich,Sandwich,Asian,400,2,2; 7; 9
+586,Thai Pork Bahn Sandwich,Sandwich,Asian,420,4,7; 9; 10
+587,Bulgogi Sandwich,Sandwich,Asian,450,1,7; 9
+588,Korean Fried Chicken Sandwich,Sandwich,Asian,480,2,4; 7; 9
+589,Kimchi Grilled Cheese,Sandwich,Asian,350,9; 11,3; 7; 9
+590,Malaysian Curray Chicken Sandwich,Sandwich,Asian,420,2,7; 9
+591,Indonesian Rendang Sandwich,Sandwich,Asian,450,1,7; 9
+592,Pad Thai,Entrée,Asian,400,2; 6; 9; 10,2; 7; 9
+593,Gaeng Keow Wan (Green Curry),Entrée,Asian,450,2; 9; 11,9
+594,Gaeng Daeng (Red Curry),Entrée,Asian,450,2; 4; 9; 11,9
+595,Massaman Curry,Entrée,Asian,500,1; 9; 11,1; 2; 9
+596,Panang Curry,Entrée,Asian,480,1; 2; 9; 11,2; 9
+597,Pad See Ew,Entrée,Asian,420,2; 4; 9; 10,7; 9
+598,Pad Kra Pao (Thai Basil Chicken),Entrée,Asian,380,2; 9,9
+599,Khao Pad (Thai Fried Rice),Entrée,Asian,450,2; 4; 9; 10,9
+600,Pho Bo,Entrée,Asian,350,1; 9,7; 9
+601,Pho Ga,Entrée,Asian,300,2; 9,7; 9
+602,Bun Cha,Entrée,Asian,450,4; 9,7; 9
+603,Bun Thit Nuong,Entrée,Asian,400,4; 9,7; 9
+604,Com Tam,Entrée,Asian,500,4; 9,7; 9
+605,Ca Kho To,Entrée,Asian,380,5,5; 9
+606,Bo Luc Lac,Entrée,Asian,420,1,9
+607,Goi Cuon Platter,Entrée,Asian,250,2; 6; 9,6; 9
+608,Sinigang na Baboy,Entrée,Asian,250,4; 9,9; 10
+609,Kare Kare,Entrée,Asian,550,1; 9,1; 2; 9
+610,Lechon Kawali,Entrée,Asian,600,4,10
+611,Chicken Inasal,Entrée,Asian,400,2,
+612,Pancit Canton,Entrée,Asian,350,4; 9,7; 9
+613,Bicol Express,Entrée,Asian,500,4; 9; 11,9
+614,Laing,Entrée,Asian,300,9,9
+615,Bibimbap,Entrée,Asian,550,1; 9; 10,9
+616,Bulgogi,Entrée,Asian,450,1,9
+617,Galbi,Entrée,Asian,500,1,9
+618,Japchae,Entrée,Asian,400,4; 9,7; 9
+619,Kimchi Jjigae,Entrée,Asian,220,9,9
+620,Tteokbokki,Entrée,Asian,350,9,7; 9
+621,Sundubu Jjigae,Entrée,Asian,280,6; 7,9
+622,Nasi Lemak,Entrée,Asian,600,2; 6; 9; 10,7; 9
+623,Laksa,Entrée,Asian,400,5; 9,6; 7; 9
+624,Char Kway Teow,Entrée,Asian,500,4; 6; 9; 10,6; 7; 9
+625,Beef Rendang,Entrée,Asian,550,1,9
+626,Mee Goreng,Entrée,Asian,450,2; 4; 9; 10,7; 9
+627,Jainanese Chicken Rice,Entrée,Asian,500,2,
+628,Nasi Goreng,Entrée,Asian,500,2; 4; 9; 10,7; 9
+629,Ayam Goreng,Entrée,Asian,450,2,9
+630,Soto Ayam,Entrée,Asian,250,2,9
+631,Gado Gado,Entrée,Asian,400,7; 9; 10,2; 9
+632,Beef Satay,Entrée,Asian,150,1,2; 9
+633,Ikan Bakar,Entrée,Asian,380,5,5; 9
+634,Shoyu Ramen,Soup,Japanese,450,1; 4; 9; 11,7; 9
+635,Miso Ramen,Soup,Japanese,500,4; 7; 9,7; 9
+636,Tonkotsu Ramen,Soup,Japanese,600,4; 9,3; 7; 9; 10
+637,Shio Ramen,Soup,Japanese,430,4; 6; 9,7; 9
+638,Tsukemen,Soup,Japanese,550,4; 9,7; 9
+639,Spcy Miso Ramen,Soup,Japanese,520,4; 7; 9,7; 9
+640,Curry Ramen,Soup,Japanese,580,1; 2; 9,7; 9
+641,Vegetarian Ramen,Soup,Japanese,400,7; 8; 9,7; 9
+642,Seafood Ramen,Soup,Japanese,480,6; 9,5; 6; 7; 9
+643,Tantanmen Ramen,Soup,Japanese,550,4; 9; 11,2; 7; 9
+644,Pad Kee Mao (Drunken Noodles),Entrée,Asian,450,2; 4; 9,7; 9
+645,Khao Niew Mamuang (Mango Sticky Rice),Dessert,Asian,300,9; 11,
+646,Thai Coconut Jelly,Dessert,Asian,150,11,
+647,Tub Tim Grob,Dessert,Asian,250,11,8
+648,Che Ba Mau (Three Color Dessert),Dessert,Asian,280,8; 11,
+649,Banh Flan,Dessert,Asian,220,11,3; 4
+650,Che Chuoi,Dessert,Asian,250,11,
+651,Halo Halo,Dessert,Asian,350,8; 11,3; 4; 7
+652,Leche Flan,Dessert,Asian,250,10; 11,3; 4
+653,Bibingka,Dessert,Asian,300,10; 11,3; 4; 7
+654,Puto,Dessert,Asian,120,10; 11,3; 4; 7
+655,Hotteok,Dessert,Asian,220,11,1; 7
+656,Patbingsu,Dessert,Asian,300,8; 11,3; 8
+657,Yakgwa,Dessert,Asian,180,11,7
+658,Kuih Lapis,Dessert,Asian,200,11,7
+659,Pandan Cake,Dessert,Asian,250,10; 11,3; 4; 7
+660,Dadar Gulung,Dessert,Asian,180,11,7
+661,Burmese Mont Lone Yay Paw,Dessert,Asian,150,11,7
+662,Cambodian Num Ansom,Dessert,Asian,280,11,
+663,Lao Coconut Rice Balls,Dessert,Asian,160,11,
+664,Sungaporean Ice Kachang,Dessert,Asian,320,8; 11,8
+665,Samosa,App,Indian,275,8; 9,7
+666,Paneer Tikka,App,Indian,325,9; 11,3
+667,Chicken Tikka,App,Indian,275,2,
+668,Seekh Kebab,App,Indian,230,1; 2,
+669,Aloo Tikka,App,Indian,175,9,
+670,Pakora,App,Indian,220,9,7
+671,Onion Bhaji,App,Indian,200,9,7
+672,Hara Bhara Kabab,App,Indian,160,8; 9,
+673,Dahi Puri,App,Indian,200,9,3; 7
+674,Pani Puri (Gol Gappa),App,Indian,160,9,7
+675,Chaat Papdi,App,Indian,220,9,7
+676,Vegetable Cutlet,App,Indian,220,9,7
+677,Fish Amritsari,App,Indian,250,5,5; 7
+678,Medu Vada,App,Indian,220,8,7
+679,Masala Vada,App,Indian,175,8,7
+680,Dhokla,App,Indian,60,8,7
+681,Kachori,App,Indian,275,8; 9,7
+682,Batata Vada,App,Indian,225,9,7
+683,Misal Pav,App,Indian,325,8; 9,7
+684,Vada Pav,App,Indian,325,9,7
+685,Cut Mirchi,App,Indian,175,9,7
+686,Paneer Pakora,App,Indian,320,9; 11,3; 7
+687,Aloo Chaat,App,Indian,175,9,
+688,Chole Bhature,App,Indian,550,8; 9,7
+689,Rajma Galouti Kebab,App,Indian,225,8,
+690,Moong Dal Chilla,App,Indian,150,8,
+691,Sabudana Vada,App,Indian,180,9,
+692,Keema Samosa,App,Indian,275,1; 2; 9,7
+693,Rasam,Soup,Indian,59,8; 9,
+694,Tomato Saar,Soup,Indian,60,9,
+695,Dal Shorba,Soup,Indian,150,8; 9,
+696,Mulligatawny Soup,Soup,Indian,220,2; 9,
+697,Moong Dal Soup,Soup,Indian,120,8; 9,
+698,Palak Soup,Soup,Indian,90,9,
+699,Tamatar Dhaniya Shorba,Soup,Indian,70,9,
+700,Vegetable Clear Soup (Indian Style),Soup,Indian,60,9,
+701,Chicken Shorba,Soup,Indian,175,2; 9,
+702,Sweet Corn Soup (Indian Style),Soup,Indian,130,9; 10,9
+703,Kachumber Salad,Salad,Indian,20,9,
+704,Kosambari,Salad,Indian,60,8; 9,
+705,Sprouted Moong Salad,Salad,Indian,70,8; 9,
+706,Fruit Chaat,Salad,Indian,130,9,8
+707,Chana Chaat,Salad,Indian,175,8; 9,
+708,Rajma Salad,Salad,Indian,175,8; 9,
+709,Paneer Salad,Salad,Indian,225,11; 9,3
+710,Cucumber Raita,Salad,Indian,60,11; 9,3
+711,Boiled Peanut Salad,Salad,Indian,150,8; 9,2
+712,Mixed Veg Salad with Lemon and Spices,Salad,Indian,60,9,
+713,Bombay Veg Sandwich,Sandwich,Indian,266,9; 11,7
+714,Paneer Sandwich,Sandwich,Indian,475,9; 11,3; 7
+715,Chicken Tikka Sandwich,Sandwich,Indian,375,2; 11,7
+716,Egg Masala Sandwich,Sandwich,Indian,325,9; 10,4; 7
+717,Grilled Vegetable Sandwich,Sandwich,Indian,275,9; 11,7
+718,Cheese Chutney Sandwich,Sandwich,Indian,425,9; 11,3; 7
+719,Keema Sandwich,Sandwich,Indian,375,1; 4; 9,7
+720,Paneer Bhurji Sandwich,Sandwich,Indian,425,11; 9,3; 7
+721,Chicken Mayo Sandwich,Sandwich,Indian,425,2; 11,3; 7
+722,Masala Toast Sandwich,Sandwich,Indian,325,9; 11,7
+723,Butter Chicken,Entrée,Indian,450,2; 11,3
+724,Chicken Curry,Entrée,Indian,350,2; 9,
+725,Chicken Chettinad,Entrée,Indian,300,2; 9,
+726,Chicken Korma,Entrée,Indian,450,2; 9; 11,1; 3
+727,Mutton Rogan Josh,Entrée,Indian,500,9,
+728,Mutton Curry,Entrée,Indian,500,9,
+729,Fish Curry,Entrée,Indian,300,5; 9,5
+730,Prawn Masala,Entrée,Indian,260,6; 9,6
+731,Egg Curry,Entrée,Indian,275,9; 10,4
+732,Paneer Butter Masala,Entrée,Indian,350,9; 11,3
+733,Palak Paneer,Entrée,Indian,300,9; 11,3
+734,Shahi Paneer,Entrée,Indian,400,9; 11,1; 3
+735,Dal Tadka,Entrée,Indian,300,8; 9,
+736,Chole (Chickpea Curry),Entrée,Indian,350,8; 9,
+737,Rajma Masala,Entrée,Indian,350,8; 9,
+738,Vegetable Korma,Entrée,Indian,350,9; 11,1; 3
+739,Kadhi Pakora,Entrée,Indian,325,8; 11,3; 4; 7
+740,Malai Kofta,Entrée,Indian,450,9; 11,3; 4; 7
+741,Vindaloo,Entrée,Indian,400,1; 2; 4; 9,
+742,Chicken Tikka Masala,Entrée,Indian,450,2; 9; 11,3
+743,Gulab Jamun,Dessert,Indian,175,11,3; 4
+744,Rasgulla,Dessert,Indian,125,11,3
+745,Rasmalai,Dessert,Indian,225,11,3
+746,Kheer (Rice Pudding),Dessert,Indian,250,9; 11,3
+747,Payasam,Dessert,Indian,250,9; 11,3
+748,Jalebi,Dessert,Indian,175,11,7
+749,Besan Ladoo,Dessert,Indian,175,8; 11,4
+750,Motichoor Ladoo,Dessert,Indian,175,8; 11,4
+751,Barfi (Milk Fudge),Dessert,Indian,175,11,3
+752,Sandesh,Dessert,Indian,100,11,3
+753,Halwa,Dessert,Indian,250,9; 11,3; 7
+754,Malpua,Dessert,Indian,225,10; 11,3; 4; 7
+755,Kulfi,Dessert,Indian,225,11,3
+756,Peda,Dessert,Indian,125,11,3
+757,Mysore Pak,Dessert,Indian,175,8; 11,3
+758,Gougeres,App,French,50,11,"3, 4, 7"
+759,Mini Quiches,App,French,90,10; 11,"3, 4, 7"
+760,Vol Au Vent,App,French,100,10; 11,3; 4; 7
+761,Canapes,App,French,50,11,3; 4; 7
+762,Tapenade Crostini,App,French,60,9,7
+763,Brie en Croute,App,French,130,11,1; 3; 7
+764,Rillettes de Saumon,App,French,80,5,3; 5
+765,Pissaladiere Squares,App,French,90,9; 11,7
+766,Mini Ratatouille Tartlets,App,French,60,8,7
+767,Escargots a la Bourguignonne,App,French,40,6,3; 7
+768,Mini Croque Monsieur,App,French,130,11,3; 7
+769,Souffle Bites,App,French,70,10; 11,"3, 4, 7"
+770,Salmon Mousse Verrines,App,French,80,5; 11,3; 5
+771,Duck Rillettes on Toast,App,French,100,3,7; 10
+772,Cheese and Charcuterie Skewers,App,French,90,1; 4; 11,1; 3; 10
+773,Mini Tarte Flambee,App,French,100,11,3; 7; 10
+774,Mushroom Duxelles Tartlets,App,French,60,9,7
+775,Foie Gras Canapes,App,French,100,3,7
+776,Endive Boats with Blue Cheese and Walnut,App,French,50,9; 11,1; 3
+777,Mini Nicoise Salad Cups,App,French,60,5; 9; 10; 11,5; 7
+778,Soupe a l'Oignon,Soup,French,200,9,7
+779,Potage Parmentier,Soup,French,160,9,
+780,Biscque de Homard,Soup,French,270,6,6
+781,Bouillabaisse,Soup,French,280,5; 6,5; 6
+782,Soupe de Poissons,Soup,French,200,5,5
+783,Consomme,Soup,French,50,1; 2; 3,
+784,Soup aux Champignons,Soup,French,130,9,
+785,Soupe de Courgettes,Soup,French,100,9,
+786,Soupe de Carottes,Soup,French,90,9,
+787,Soupe de Celeri-Rave,Soup,French,90,9,
+788,Soupe de Tomates,Soup,French,80,9,
+789,Soupe aux Pois Casses,Soup,French,200,8,
+790,Soupe aux Lentilles,Soup,French,220,8,
+791,Soupe de Poireaux et Pommes de Terre,Soup,French,170,9,
+792,Soupe de Potiron,Soup,French,100,9,
+793,Soupe de Navets,Soup,French,80,9,
+794,Soupe de Fruits de Mer,Soup,French,260,6,6
+795,Soupe au Pistou,Soup,French,200,8; 9,3; 7
+796,Soupe de Chou,Soup,French,90,9,
+797,Soupe de Fenouil,Soup,French,80,9,
+798,salade Nicoise,Salad,French,400,5; 9; 10; 11,5; 7
+799,Salade Lyonnaise,Salad,French,450,10; 11,3; 10
+800,Salade de Chevre Chaud,Salad,French,375,11,3; 7
+801,Salade de Lentilles,Salad,French,275,8,
+802,Salade de Pommes de Terre,Salad,French,275,9,
+803,Salade de Betteraves,Salad,French,175,9,
+804,Salade de Carottes Rapees,Salad,French,130,9,
+805,Salade de Celeri Remoulade,Salad,French,200,9,
+806,Salade de Tomates,Salad,French,100,9,
+807,Salade de Haricots Verts,Salad,French,130,9,
+808,Salade de Campignons,Salad,French,115,9,
+809,Salade de Poulet,Salad,French,325,2,
+810,Salade de Fruits de Mer,Salad,French,275,6,6
+811,Salade de Endives et Noix,Salad,French,225,9,1
+812,Salade Parisienne,Salad,French,375,1; 11,3; 7
+813,Croque Monsieur,Sandwich,French,475,11,3; 7
+814,Croque Madame,Sandwich,French,525,10; 11,3; 4; 7
+815,Jambon Beurre,Sandwich,French,375,4; 11,3; 7; 10
+816,Pan Bagnat,Sandwich,French,475,5; 11,5; 7
+817,Poulet Roti Sandwich,Sandwich,French,425,2,7
+818,Sandwich au Fromage,Sandwich,French,325,11,3; 7
+819,Sandwich au Saumon Fume,Sandwich,French,375,5,5; 7
+820,Sandwich au Brie et Pommes,Sandwich,French,425,11,3; 7
+821,Sandwich au Thon,Sandwich,French,375,5,5; 7
+822,Sandwich au Jambon et Fromage,Sandwich,French,375,4; 11,3; 7; 10
+823,Sandwich au Pate,Sandwich,French,425,4,7; 10
+824,Sandwich au Poulet et Crudites,Sandwich,French,375,2,7
+825,Sandwich au Rosbif,Sandwich,French,425,1,7
+826,Sandwich au Chevre et Tomates,Sandwich,French,375,11,3; 7
+827,Sandwich au Rollettes,Sandwich,French,425,1; 4,7; 10
+828,Coq au Vin,Entrée,French,650,2,
+829,Boeuf Bourguignon,Entrée,French,700,1,
+830,Cassoulet,Entrée,French,850,4; 8,10
+831,Duck a l'Orange,Entrée,French,750,3,
+832,Poulet Roti,Entrée,French,550,2,
+833,Poulet Basquaise,Entrée,French,600,2,
+834,Poulet Chasseur,Entrée,French,650,2,
+835,Poulet Fricassee,Entrée,French,600,2,
+836,Blanquette de Veau,Entrée,French,650,1,
+837,Veau Marengo,Entrée,French,650,1,
+838,Lapin a la Moutarde,Entrée,French,550,3,
+839,Lapin Chasseur,Entrée,French,550,3,
+840,Filet de Boeuf au Poivre,Entrée,French,750,1,
+841,Entrecote Bordelaise,Entrée,French,800,1,
+842,Steak Frites,Entrée,French,950,1,
+843,Chateaubriand,Entrée,French,850,1,
+844,Magret de Canard,Entrée,French,750,3,
+845,Confit de Canard,Entrée,French,850,3,
+846,Gigot d'Agneau,Entrée,French,750,1,
+847,Navarin d'Agneau,Entrée,French,700,1,
+848,Cote de Porc a la Normande,Entrée,French,700,4,10
+849,Porc Roti,Entrée,French,650,4,10
+850,Quenelles de Brochet,Entrée,French,450,5,4; 5; 7
+851,Bouillabaisse,Entrée,French,550,5; 6,5; 6
+852,Sole Meuniere,Entrée,French,500,5,5
+853,Truite aux Amandes,Entrée,French,500,5,1; 5
+854,Homand Thermidor,Entrée,French,650,6,6
+855,Moules Marinieres,Entrée,French,400,6,6
+856,Gratin Dauphinois,Entrée,French,350,11,3
+857,Crème Brulee,Dessert,French,275,10; 11,3; 4
+858,Tarte Tatin,Dessert,French,325,9,3; 4; 7
+859,Eclairs,Dessert,French,275,10; 11,3; 4; 7
+860,Profiteroles,Dessert,French,325,10; 11,3; 4; 7
+861,Madeleines,Dessert,French,90,10; 11,3; 4; 7
+862,Macarons,Dessert,French,80,10; 11,1; 3; 4; 7
+863,Mille-Feuille,Dessert,French,375,10; 11,3; 4; 7
+864,Paris-Brest,Dessert,French,425,10; 11,1; 3; 4; 7
+865,Clafoutis,Dessert,French,275,10; 11,3; 4; 7
+866,Financiers,Dessert,French,90,10; 11,1; 3; 4; 7
+867,Caneles,Dessert,French,80,10; 11,3; 4; 7
+868,Tarte aux Fruits,Dessert,French,325,9; 10; 11,3; 4; 7; 8
+869,Tarte au Citron,Dessert,French,325,9; 10; 11,3; 4; 7
+870,Opera Cake,Dessert,French,375,10; 11,3; 4; 7
+871,Charlotte Russe,Dessert,French,325,10; 11,3; 4; 7
+872,Choux a la Crème,Dessert,French,225,10; 11,3; 4; 7
+873,Galette des Rois,Dessert,French,375,10; 11,1; 3; 4; 7
+874,Souffle au Chocolat,Dessert,French,275,10; 11,3; 4; 7
+875,Ile Flottante,Dessert,French,275,10; 11,3; 4
+876,Petit Fours,Dessert,French,60,10; 11,3; 4; 7
+877,Bruschetta al Pomodoro,App,Italian,80,9,7
+878,Prosciutto e Melone,App,Italian,110,4,10
+879,Arancini,App,Italian,175,10; 11,3; 4; 7
+880,Crostini con Funghi,App,Italian,90,9,7
+881,Olive Marinate,App,Italian,50,9,
+882,Carpaccio di Manzo,App,Italian,130,1,
+883,Frittata di Verdure,App,Italian,175,10; 11,4
+884,Polenta Bites,App,Italian,90,9,
+885,Calamari Fritta,App,Italian,225,6,6; 7
+886,Insalata di Mare,App,Italian,175,6,6
+887,Stuffed Cherry Peppers,App,Italian,60,9; 11,
+888,Salumi Board,App,Italian,90,1; 4; 11,10
+889,Minestrone,Soup,Italian,160,8; 9,
+890,Zuppa Toscana,Soup,Italian,275,1; 9,
+891,Stracciatella,Soup,Italian,130,10; 11,4
+892,Ribollita,Soup,Italian,225,8; 9,7
+893,Acquacotta,Soup,Italian,165,9,7
+894,Pasta e Fagioli,Soup,Italian,275,8; 9,7
+895,Brodo di Pollo,Soup,Italian,90,2,
+896,Brodo di Carne,Soup,Italian,110,1,
+897,Zuppa di Pesce,Soup,Italian,275,5,5; 6
+898,Cacciucco,Soup,Italian,325,5; 6,5; 6
+899,Zuppa di Lenticchie,Soup,Italian,275,8,
+900,Zuppa di Ceci,Soup,Italian,275,8,
+901,Zuppa di Verdure,Soup,Italian,130,9,
+902,Zuppa di Pomodoro,Soup,Italian,110,9,
+903,Zuppa di Funghi,Soup,Italian,165,9,
+904,Insalata Caprese,Salad,Italian,275,11,3
+905,Insalata di Rucola e Parmigiano,Salad,Italian,165,9; 11,3
+906,Insalata di Pomodori,Salad,Italian,90,9,
+907,Insalata di Mare,Salad,Italian,275,6,6
+908,Insalata di Polpo,Salad,Italian,275,6,6
+909,Insalata di Tonno e Fagioli,Salad,Italian,325,5; 8,5
+910,Insalata di Patate,Salad,Italian,275,9,
+911,Insalata di Ceci,Salad,Italian,275,8,
+912,Insalata di Lenticchie,Salad,Italian,275,8,
+913,Insalata di Verdure Grigliate,Salad,Italian,225,9,
+914,Insalata di Spinaci,Salad,Italian,130,9,
+915,Insalata di Carote,Salad,Italian,110,9,
+916,Insalata di Cavolo,Salad,Italian,130,9,
+917,Insalata di Funghi,Salad,Italian,175,9,
+918,Insalata di Farro,Salad,Italian,275,8; 9,7
+919,Antipasto,App,Italian,350,1; 4; 11,3; 10
+920,Panino al Prosciutto e Formaggio,Sandwich,Italian,375,4; 11,3; 7; 10
+921,Panino Caprese,Sandwich,Italian,375,11,3; 7
+922,Panino al Salame,Sandwich,Italian,425,4,7; 10
+923,Panino al Tonno,Sandwich,Italian,375,5,5; 7
+924,Panino alla Mortadella,Sandwich,Italian,425,4,7; 10
+925,Panino con Pollo alla Griglia,Sandwich,Italian,375,2,7
+926,Panino con Verdure Grigliate,Sandwich,Italian,325,9,7
+927,Panino con Speck e Brie,Sandwich,Italian,425,4; 11,3; 7; 10
+928,Panino con Bresaola e Rucola,Sandwich,Italian,375,1,7
+929,Panino con Porchetta,Sandwich,Italian,475,4,7; 10
+930,Panino con Melanzane alla Parmigiana,Sandwich,Italian,425,9; 11,3;7
+931,Panino con Polpette,Sandwich,Italian,475,1,7; 10
+932,Panino con Salsiccia e Peperoni,Sandwich,Italian,525,4,7; 10
+933,Panino con Funghi e Fontina,Sandwich,Italian,425,9; 11,3; 7
+934,Panino con Gamberetti e Rucola,Sandwich,Italian,375,6,6; 7
+935,Lasagna alla Bolognese,Entrée,Italian,650,1; 11,3; 4; 7; 10
+936,Spaghetti alla Carbonara,Entrée,Italian,600,19; 11,3; 4; 7; 10
+937,Tagliatelle al Ragu,Entrée,Italian,600,1; 11,3; 4; 7; 10
+938,Risotto alla Millanese,Entrée,Italian,550,11,3
+939,Risotto ai Funghi,Entrée,Italian,550,9; 11,3
+940,Risotto al Frutti di Mare,Entrée,Italian,550,6; 11,3; 6
+941,Gnocchi al Pesto,Entrée,Italian,500,11,1; 3; 4; 7
+942,Gnocchi alla Sorrentina,Entrée,Italian,500,11,3; 4; 7
+943,Polenta con Salsiccia,Entrée,Italian,650,4,10
+944,Osso Buco alla Milanese,Entrée,Italian,750,1,
+945,Saltimbocca alla Romana,Entrée,Italian,550,4,10
+946,Scaloppine al Limone,Entrée,Italian,500,1,
+947,Braciole di Manzo,Entrée,Italian,500,1,
+948,Pollo alla Cacciatora,Entrée,Italian,650,2,
+949,Pollo al Marsala,Entrée,Italian,550,2,
+950,Frittata di Verdure,Entrée,Italian,175,10; 11,4
+951,Melanzane alla Parmigiana,Entrée,Italian,450,9; 11,3; 7
+952,Vitello Tonnato,Entrée,Italian,550,1; 5,5
+953,Pesce al Forno,Entrée,Italian,400,5,5
+954,Branzino alla Griglia,Entrée,Italian,350,5,5
+955,Calamari Ripieni,Entrée,Italian,450,6,6; 7
+956,Spaghetti alla Vongole,Entrée,Italian,550,6,6; 7
+957,Linguine ai Frutti di Mare,Entrée,Italian,550,6,6; 7
+958,Pizza Margherita,Entrée,Italian,750,11,3; 7
+959,Pizza Quattro Stagioni,Entrée,Italian,850,2; 4; 6; 11,3; 7; 10
+960,Tiramisu,Dessert,Italian,475,10; 11,3; 4; 7
+961,Cannoli,Dessert,Italian,275,10; 11,3; 4; 7
+962,Panna Cotta,Dessert,Italian,275,11,3
+963,Zabaglione,Dessert,Italian,225,10; 11,3; 4
+964,Cassata Siciliana,Dessert,Italian,375,11,3; 4; 7
+965,Sfogliatelle,Dessert,Italian,275,10; 11,3; 4; 7
+966,Amaretti Cookies,Dessert,Italian,70,10; 11,1; 3; 4; 7
+967,Budino al Cioccolato,Dessert,Italian,275,10; 11,3; 4
+968,Gelato,Dessert,Italian,225,11,3
+969,Semifreddo,Dessert,Italian,275,11,3; 4
+970,Torta Caprese,Dessert,Italian,375,10; 11,1; 3; 4
+971,Struffoli,Dessert,Italian,325,10; 11,3; 4; 7
+972,Panettone,Dessert,Italian,325,10; 11,3; 4; 7
+973,Colomba Pasquale,Dessert,Italian,325,10; 11,3; 4; 7
+974,Crostata di Marmellata,Dessert,Italian,325,10; 11,3; 4; 7
+975,Patatas Bravas,App,Spanish,150,9,4
+976,Croquetas de Jamon,App,Spanish,250,4; 11,3; 4; 7; 10
+977,Tortilla Espanola,App,Spanish,190,10; 11,4
+978,Pan con Tomate,App,Spanish,120,8,7
+979,Gambas al Ajillo,App,Spanish,150,6,6
+980,Calamares a la Romana,App,Spanish,220,6,6; 7
+981,Chorizo al Vino,App,Spanish,300,4,10
+982,Albondigas,App,Spanish,210,1,7; 10
+983,Pimientos de Padron,App,Spanish,90,9,
+984,Queso Manchego con Membrillo,App,Spanish,350,11,3
+985,Empanadas,App,Spanish,270,4; 11,3; 4; 7
+986,Boquerones en Vinagre,App,Spanish,120,5,5
+987,Jamon Iberico,App,Spanish,340,4,10
+988,Seta al Ajillo,App,Spanish,90,9,
+989,Ensaladilla Rusa,App,Spanish,220,11,4
+990,Gazpacho,Soup,Spanish,50,9,
+991,Salmorejo,Soup,Spanish,120,9; 11,4
+992,Ajo Blanco,Soup,Spanish,130,9; 11,1
+993,Caldo Gallego,Soup,Spanish,90,4; 9,
+994,Sopa de Mariscos,Soup,Spanish,80,6,6
+995,Sopa de Pescado,Soup,Spanish,70,5,5
+996,Fabada Asturiana,Soup,Spanish,250,4; 8,10
+997,Sopa de Lentejas,Soup,Spanish,150,8,
+998,Sopa de Ajo,Soup,Spanish,120,9,7
+999,Sopa de Verduras,Soup,Spanish,50,9,
+1000,Sopa de Fideos,Soup,Spanish,70,9,7
+1001,Sopa de Patatas,Soup,Spanish,90,9,
+1002,Sopa de Tomate,Soup,Spanish,60,9,
+1003,Sopa Castellana,Soup,Spanish,130,4; 10,7
+1004,Caldereta de Cordero,Soup,Spanish,250,1,
+1005,Ensalada Mixta,Salad,Spanish,70,9,
+1006,Ensalada de Garbanzos,Salad,Spanish,150,8,
+1007,Ensalada de Patatas,Salad,Spanish,120,9,
+1008,Ensalada de Tomate y Cebolla,Salad,Spanish,40,9,
+1009,Ensalada de Pimientos Asados,Salad,Spanish,80,9,
+1010,Ensalada de Judias Verdes,Salad,Spanish,60,9,
+1011,Ensalada de Pulpo,Salad,Spanish,90,6,6
+1012,Ensalada de Bacalao,Salad,Spanish,100,5,5
+1013,Ensalada de Espinacas,Salad,Spanish,40,9,
+1014,Ensalada de Atun,Salad,Spanish,150,5,5
+1015,Ensalada de Lentejas,Salad,Spanish,130,8,
+1016,Ensalada de Mariscos,Salad,Spanish,90,6,6
+1017,Ensalada de Aguacate y Tomate,Salad,Spanish,120,9,
+1018,Ensalada de Zanahoria Rallada,Salad,Spanish,40,9,
+1019,Ensalada de Remolacha,Salad,Spanish,50,9,
+1020,Bocadillo de Jamon,Sandwich,Spanish,250,4,7; 10
+1021,Bocadillo de Tortilla Espanola,Sandwich,Spanish,270,10; 11,4; 7
+1022,Bocadillo de Chorizo,Sandwich,Spanish,300,4,7; 10
+1023,Bocadillo de Calamares,Sandwich,Spanish,280,6,6; 7
+1024,Bocadillo de Atun,Sandwich,Spanish,260,5,5; 7
+1025,Bocadillo de Lomo,Sandwich,Spanish,290,4,7; 10
+1026,Bocadillo de Queso Machego,Sandwich,Spanish,320,11,3; 7
+1027,Bocadillo de Jamon y Queso,Sandwich,Spanish,310,4; 11,3; 7; 10
+1028,Bocadillo de Morcilla,Sandwich,Spanish,330,4,7; 10
+1029,Bocadillo de Vegetales Asado,Sandwich,Spanish,180,9,7
+1030,Bocadillo de Sobrasada,Sandwich,Spanish,340,4,7; 10
+1031,Bocadillo de Pollo,Sandwich,Spanish,250,2,7
+1032,Bocadillo de Sardinas,Sandwich,Spanish,280,5,5; 7
+1033,Bocadillo de Jamon Serrano y Tomate,Sandwich,Spanish,270,4,7; 10
+1034,Bocadillo de Huevos,Sandwich,Spanish,260,10,4; 7
+1035,Paella Valenciana,Entrée,Spanish,180,2; 4; 6,6; 10
+1036,Paella de Mariscos,Entrée,Spanish,160,6,6
+1037,Paella Mixta,Entrée,Spanish,170,2; 4; 6,6; 10
+1038,Arroz Negro,Entrée,Spanish,190,6,6
+1039,Fideua,Entrée,Spanish,200,6,6; 7
+1040,Pollo al Ajillo,Entrée,Spanish,220,2,
+1041,Pollo a la Cerveza,Entrée,Spanish,210,2,
+1042,Conejo al Ajillo,Entrée,Spanish,230,3,
+1043,Cordero Asado,Entrée,Spanish,280,1,
+1044,Chuletas de Cordero,Entrée,Spanish,300,1,
+1045,Cochinillo Asado,Entrée,Spanish,320,4,10
+1046,Solomillo al Whisky,Entrée,Spanish,250,4,
+1047,Lomo de Cerdo a la Plancha,Entrée,Spanish,230,4,10
+1048,Chuleton de Ternera,Entrée,Spanish,280,1,
+1049,Rabo de Toro,Entrée,Spanish,260,1,
+1050,Albondigas en Salsa,Entrée,Spanish,220,1,7; 10
+1051,Callo a la Madrilena,Entrée,Spanish,250,4,10
+1052,Bacalao a la Vizcaina,Entrée,Spanish,180,5,5
+1053,Bacalao al Pil Pil,Entrée,Spanish,190,5,5
+1054,Merluza a la Romana,Entrée,Spanish,200,5,5; 7
+1055,Merluza en Salsa Verde,Entrée,Spanish,150,5,5
+1056,Caldereta de Mariscos,Entrée,Spanish,160,6,6
+1057,Pulpo a la Gallega,Entrée,Spanish,120,6,6
+1058,Chipirones Rellenos,Entrée,Spanish,180,6,6; 7
+1059,Huevos a la Flamenca,Entrée,Spanish,190,10,4; 7
+1060,Churros con Chocolate,Dessert,Spanish,450,10; 11,3; 4; 7
+1061,Flan de Huevo,Dessert,Spanish,150,10; 11,3; 4
+1062,Crema Catalana,Dessert,Spanish,250,10; 11,3; 4
+1063,Tarta de Santiago,Dessert,Spanish,400,10; 11,1; 3; 4; 7
+1064,Arroz con Leche,Dessert,Spanish,150,10; 11,3
+1065,Leche Fritas,Dessert,Spanish,300,11,3; 4; 7
+1066,Natillas,Dessert,Spanish,180,11,3; 4
+1067,Polvorones,Dessert,Spanish,500,10; 11,1; 3; 4; 7
+1068,Mantecados,Dessert,Spanish,500,10; 11,1; 3; 4; 7
+1069,Pestinos,Dessert,Spanish,450,10; 11,3; 4; 7
+1070,Bunuelos,Dessert,Spanish,350,10; 11,3; 4; 7
+1071,Torrijas,Dessert,Spanish,300,10; 11,3; 4; 7
+1072,Rosquillas,Dessert,Spanish,400,10; 11,3; 4; 7
+1073,Huesos de Santo,Dessert,Spanish,450,10; 11,1; 3; 4; 7
+1074,Buzcocho,Dessert,Spanish,350,10; 11,3; 4; 7
+1075,Brik,App,African,250,10; 11,4; 7
+1076,Maakouda,App,African,220,9,4; 7
+1077,Falafel with Harissa Dip,App,African,330,8,7
+1078,Zaalouk,App,African,90,9,
+1079,Stuffed Dates,App,African,280,9,1
+1080,Akara,App,African,270,8,4
+1081,Kelewele,App,African,300,9,
+1082,Suya Skewers,App,African,280,1,
+1083,Moi Moi Bites,App,African,160,8,4
+1084,Chin Chin,App,African,500,10; 11,3; 4; 7
+1085,Sambusa,App,African,290,10; 11,3; 4; 7
+1086,Mandazi,App,African,350,10; 11,3; 4; 7
+1087,Kachumbari Cups,App,African,40,9,
+1088,Grilled Tilapia Skewers,App,African,150,5,5
+1089,Chapati Rolls,App,African,300,10; 11,7
+1090,Makayabu,App,African,180,5,5
+1091,Fried Cassava Bites,App,African,320,9,
+1092,Pepper Snails,App,African,150,6,
+1093,Plantain Chips,App,African,520,9,
+1094,Groundnut Balls,App,African,550,8,2
+1095,Egusi Soup,Soup,African,250,8,1
+1096,Groundnut Soup,Soup,African,280,8,2
+1097,Okra Soup,Soup,African,90,9,
+1098,Light Soup,Soup,African,80,1; 2,
+1099,Banga Soup,Soup,African,220,8,1
+1100,Harira,Soup,African,120,8; 10,7
+1101,Chorba Frik,Soup,African,100,8; 9,7
+1102,Shorbat Adas,Soup,African,90,8,
+1103,Mchuzi wa Samaki,Soup,African,150,5,5
+1104,Nyama na Mchuzi,Soup,African,220,1,
+1105,Ethiopian Lentil Soup Misir Wot,Soup,African,150,8,
+1106,Nkui Soup,Soup,African,80,9,
+1107,Mbongo Tchobi,Soup,African,200,1,
+1108,Cassava Leaf Soup,Soup,African,180,9,
+1109,Chakalaka Soup,Soup,African,120,9,
+1110,Taktouka,Salad,African,90,9,
+1111,Salata Baladi,Salad,African,60,9,
+1112,Carrot and Orange Salad,Salad,African,50,9,
+1113,Beetroot Salad with Yogurt,Salad,African,70,9'; 11,3
+1114,Avacado and Mango Salad,Salad,African,120,9,
+1115,African Bean Salad,Salad,African,150,8,
+1116,Cabbage and Carrot Slaw,Salad,African,60,9,
+1117,Tomato and Onion Salad,Salad,African,40,9,
+1118,Kachumbari,Salad,African,40,9,
+1119,Coconut and Pineapple Salad,Salad,African,100,9,
+1120,Green Papaya Salad,Salad,African,80,9,
+1121,Cassava Leaf Salad,Salad,African,90,9,
+1122,Okra and Tomato Salad,Salad,African,70,9,
+1123,Chakalaka Salad,Salad,African,120,9,
+1124,Sweet Potato and Peanut Salad,Salad,African,150,9,2
+1125,Merguez Sandwich,Sandwich,African,320,4,7; 10
+1126,Tunisian Fricasse,Sandwich,African,350,10; 11,3; 4; 7
+1127,Khobz Mechoui,Sandwich,African,300,4,7
+1128,Egg and Harissa Sandwich,Sandwich,African,280,10,4; 7
+1129,Suya Sandwich,Sandwich,African,330,1,7
+1130,Chicken Shawarma Nigerian Style,Sandwich,African,300,2,7
+1131,Plantain and Egg Sandwich,Sandwich,African,320,9; 10,4; 7
+1132,Fish Roll,Sandwich,African,290,5,7
+1133,Chapati Wraps,Sandwich,African,300,10; 11,7
+1134,Sambusa Pocket Sandwich,Sandwich,African,310,10; 11,3; 4; 7
+1135,Nyama Choma Sandwich,Sandwich,African,330,1,7
+1136,Pepper Chicken Roll,Sandwich,African,310,2,7
+1137,Cassava Bread Sandwich,Sandwich,African,280,9,
+1138,Bunny Chow,Sandwich,African,400,1,7
+1139,Boerewors Roll,Sandwich,African,350,1,7; 10
+1140,Couscous with Lamb and Vegetables,Entrée,African,180,1; 9,7
+1141,Tagine of Chicken with Preserved Lemon and Olives,Entrée,African,190,2,
+1142,Tagine of Lamb and Prines,Entrée,African,220,1,
+1143,Egyptian Koshari,Entrée,African,160,8; 9,7
+1144,Libyan Bazeen,Entrée,African,200,9,7
+1145,Algerian Rechta,Entrée,African,180,9,7
+1146,Jollof Rice,Entrée,African,180,9,
+1147,Waakye,Entrée,African,190,8; 9,
+1148,Efo Riro,Entrée,African,220,9,
+1149,Ofada Rice with Ayamase Sauce,Entrée,African,250,9,
+1150,Fufu with Light Soup,Entrée,African,150,1; 9,
+1151,Yassa Poulet,Entrée,African,210,2,
+1152,Thieboudienne,Entrée,African,190,5; 9,5
+1153,Goat Pepper Soup,Entrée,African,120,1,
+1154,Palm Nut Soup with Fufu,Entrée,African,250,8,1
+1155,Beans and Plantain Pouridge,Entrée,African,220,8; 9,
+1156,Ugali with Sukuma Wiki,Entrée,African,150,9,
+1157,Nyama Choma,Entrée,African,280,1,
+1158,Pilau Rice,Entrée,African,190,9,
+1159,Matoke Stew,Entrée,African,160,9,
+1160,Mchuzi wa Samaki,Entrée,African,150,5,5
+1161,Injera with Doro Wat,Entrée,African,220,2; 9,7
+1162,Misir Wat,Entrée,African,150,8,
+1163,Kitfo,Entrée,African,250,1,
+1164,Poulet DG,Entrée,African,230,2,
+1165,Ndole,Entrée,African,240,9,1
+1166,Saka Saka,Entrée,African,180,9,
+1167,Pepper Fish Stew,Entrée,African,190,5,5
+1168,Makayabu Stew,Entrée,African,180,5,5
+1169,Bobotie,Entrée,African,250,1; 10,3; 4; 7
+1170,Potjiekos,Entrée,African,220,1,
+1171,Pap with Tomato and Onion Sauce,Entrée,African,150,9,
+1172,Chakalaka with Meat,Entrée,African,200,1; 9,
+1173,Braai Mexed Grill,Entrée,African,300,1; 2; 4; 5; 6,
+1174,Bunny Chow,Entrée,African,400,1,7
+1175,Sadza with Beef Stew,Entrée,African,220,1,
+1176,Mozzambican Piri Piri Chicken,Entrée,African,240,2,
+1177,Seafood Matapa,Entrée,African,200,6,6
+1178,Vetkoek with Mince,Entrée,African,350,1,3; 4; 7
+1179,Makroud,Dessert,African,400,10; 11,1; 3; 4; 7
+1180,Basbousa,Dessert,African,350,10; 11,1; 3; 4; 7
+1181,Sellou,Dessert,African,500,10; 11,1; 3; 4; 7
+1182,Chebakia,Dessert,African,450,10; 11,1; 3; 4; 7
+1183,Zalabia,Dessert,African,400,10; 11,3; 4; 7
+1184,Kelewele with Honey Drizzle,Dessert,African,320,9,
+1185,Puff Puff,Dessert,African,350,10; 11,3; 4; 7
+1186,Coconut Candy,Dessert,African,500,9,
+1187,Plantain Cake,Dessert,African,300,9; 10; 11,3; 4; 7
+1188,Groundnut Brittle,Dessert,African,550,8,2
+1189,Mandazi,Dessert,African,350,10; 11,3; 4; 7
+1190,Halwa,Dessert,African,450,10; 11,1
+1191,Sweet Potato and Coconut Pudding,Dessert,African,250,9,
+1192,Kashata,Dessert,African,480,8,1
+1193,Malva Pudding,Dessert,African,350,10; 11,3; 4; 7
+1194,Hummus,App,Middle Eastern,170,8,
+1195,Baba Ghanoush,App,Middle Eastern,90,9,
+1196,Labneh with Za'atar,App,Middle Eastern,150,11,3
+1197,Muhammara,App,Middle Eastern,250,9,1
+1198,Stuffed Grape Leaves Warak Enab,App,Middle Eastern,120,8; 9,7
+1199,Samboosa,App,Middle Eastern,290,10; 11,3; 4; 7
+1200,Kibbeh Nayeh,App,Middle Eastern,250,1,7
+1201,Meat Fatayer,App,Middle Eastern,300,1; 11,3; 4; 7
+1202,Cheese Fatayer,App,Middle Eastern,320,11,3; 4; 7
+1203,Fattet Hummus,App,Middle Eastern,220,8; 11,7
+1204,Batata Harra,App,Middle Eastern,180,9,
+1205,Halloumi Fries,App,Middle Eastern,320,11,3
+1206,Pickled Vegetables Torshi,App,Middle Eastern,30,9,
+1207,Mini Shawarma Wraps,App,Middle Eastern,280,2,7
+1208,Shorbat Adas Lentil Soup,Soup,Middle Eastern,90,8,
+1209,Freekah Soup,Soup,Middle Eastern,100,8; 9,7
+1210,Chicken Vermicelli Soup,Soup,Middle Eastern,80,2,7
+1211,Vegetable Soup with Bulgur,Soup,Middle Eastern,70,9,7
+1212,Harees Soup,Soup,Middle Eastern,120,8; 10,7
+1213,Lamb and Chickpea Soup,Soup,Middle Eastern,150,1; 8,
+1214,Tomato and Rice Soup,Soup,Middle Eastern,70,9,
+1215,Shorbat Khodra,Soup,Middle Eastern,60,9,
+1216,Yogurt Soup Shorbat Laban,Soup,Middle Eastern,90,11,3
+1217,Shorbat Dajaj,Soup,Middle Eastern,80,2,
+1218,Tabbouleh,Salad,Middle Eastern,70,9,7
+1219,Fattoush,Salad,Middle Eastern,90,9,7
+1220,Salata Baladi,Salad,Middle Eastern,60,9,
+1221,Beetroot Salad with Yogurt,Salad,Middle Eastern,70,9; 11,3
+1222,Cabbage Salad with Caraway,Salad,Middle Eastern,50,9,
+1223,Carrot and Orange Salad,Salad,Middle Eastern,50,9,
+1224,Chickpea Salad with Tahini Dressing,Salad,Middle Eastern,150,8,
+1225,Date and Nut Salad,Salad,Middle Eastern,220,9,1
+1226,Roasted Eggplant Salad,Salad,Middle Eastern,80,9,
+1227,Lentil and Herb Salad,Salad,Middle Eastern,130,8,
+1228,Shawarma Wrap,Sandwich,Middle Eastern,300,2,7
+1229,Falafel Sandwich,Sandwich,Middle Eastern,330,8,7
+1230,Kafta Wrap,Sandwich,Middle Eastern,320,1,7
+1231,Sabich,Sandwich,Middle Eastern,280,9; 10,4; 7
+1232,Halloumi Wrap,Sandwich,Middle Eastern,320,11,3; 7
+1233,Chicken Samboosa Wrap,Sandwich,Middle Eastern,310,2; 10,3; 4; 7
+1234,Lamb Kofta Roll,Sandwich,Middle Eastern,330,1,7
+1235,Spiced Egg Wrap,Sandwich,Middle Eastern,250,10,4; 7
+1236,Arayes,Sandwich,Middle Eastern,350,1; 11,7
+1237,Manakish Roll,Sandwich,Middle Eastern,320,11,3; 7
+1238,Kafta Shish Tawook and Lawk Skewers,Entrée,Middle Eastern,280,1; 2,
+1239,Chicken Shawarma Plate,Entrée,Middle Eastern,250,2,
+1240,Beef Shawarma Plate,Entrée,Middle Eastern,270,1,
+1241,Kibbeh Bil Sanieh,Entrée,Middle Eastern,280,1,7
+1242,Stuffed Grape Leaves with Meat,Entrée,Middle Eastern,150,1; 9,7
+1243,Maklubeh,Entrée,Middle Eastern,190,1; 9,7
+1244,Savadieh,Entrée,Middle Eastern,200,1,7
+1245,Kafta Bil Tahini,Entrée,Middle Eastern,250,1,
+1246,Fattet Hummus with Meat,Entrée,Middle Eastern,260,1; 8,7
+1247,Shish Tawook Plate,Entrée,Middle Eastern,250,2,
+1248,Kabsa,Entrée,Middle Eastern,190,1; 2,
+1249,Mandi,Entrée,Middle Eastern,200,1; 2,
+1250,Machboos,Entrée,Middle Eastern,200,1; 2,
+1251,Harees,Entrée,Middle Eastern,180,8; 10,7
+1252,Jareesh,Entrée,Middle Eastern,170,8,7
+1253,Majboos Shrimip,Entrée,Middle Eastern,180,6,6
+1254,Qoozi,Entrée,Middle Eastern,250,1,
+1255,Balaleet with Eggs,Entrée,Middle Eastern,220,10,4; 7
+1256,Iranian Ghormeh Sabzi,Entrée,Middle Eastern,180,1; 9,
+1257,Persian Fesenjan,Entrée,Middle Eastern,250,1,1
+1258,Turkish Iskender Kebab,Entrée,Middle Eastern,280,1,3; 7
+1259,Turkish Manti,Entrée,Middle Eastern,220,1; 10; 11,3; 4; 7
+1260,Turkish Imam Bayildi,Entrée,Middle Eastern,90,9,
+1261,Iraqi Tepsi Baytinijan,Entrée,Middle Eastern,200,1; 9,
+1262,Palestinian Musakhan,Entrée,Middle Eastern,260,2,7
+1263,Jordanian Mansaf,Entrée,Middle Eastern,280,1; 11,3; 7
+1264,Syrian Sahriyeh,Entrée,Middle Eastern,180,1,7
+1265,Lebanese Riz a Jej,Entrée,Middle Eastern,190,2,
+1266,Kofta Curry Middle Eastern Style,Entrée,Middle Eastern,250,1,
+1267,Stuffed Zuchini Kousa Mahshi,Entrée,Middle Eastern,150,1; 9,7
+1268,Baklava,Dessert,Middle Eastern,450,10; 11,1; 3; 4; 7
+1269,Knafeh,Dessert,Middle Eastern,400,10; 11,3; 4; 7
+1270,Ma'amoul,Dessert,Middle Eastern,450,10; 11,1; 3; 4; 7
+1271,Atayef,Dessert,Middle Eastern,300,10; 11,3; 4; 7
+1272,Halawet El Jibn,Dessert,Middle Eastern,350,11,3; 4; 7
+1273,Luqaimat,Dessert,Middle Eastern,400,10; 11,3; 4; 7
+1274,Basbousa,Dessert,Middle Eastern,350,10; 11,1; 3; 4; 7
+1275,Balaleet Sweet Version,Dessert,Middle Eastern,250,10; 11,4; 7
+1276,Halva,Dessert,Middle Eastern,500,10; 11,1
+1277,Roz Bel Laban,Dessert,Middle Eastern,150,11,3
+1278,Tzatziki,App,Mediterranean,60,11,3
+1279,Dolmas,App,Mediterranean,120,8; 9,7
+1280,Spanakopita,App,Mediterranean,250,10; 11,3; 4; 7
+1281,Taramosalata,App,Mediterranean,220,5,5
+1282,Ezme,App,Mediterranean,80,9,
+1283,Haydari,App,Mediterranean,150,11,3
+1284,Sigara Borek,App,Mediterranean,300,10; 11,3; 4; 7
+1285,Bigilla,App,Mediterranean,180,8,
+1286,Ftira Bites,App,Mediterranean,250,9; 11,7
+1287,Prsut with Olive Oil,App,Mediterranean,340,1,10
+1288,Pastticada Crostini,App,Mediterranean,280,1,7
+1289,Ajvar Spread,App,Mediterranean,90,9,
+1290,Burek,App,Mediterranean,350,10; 11,3; 4; 7
+1291,Halloumi with Honey and Thyme,App,Mediterranean,320,11,3
+1292,Avgolemono Soup,Soup,Mediterranean,90,2; 10,4
+1293,Fasolada,Soup,Mediterranean,120,8,
+1294,Trahana Soup,Soup,Mediterranean,100,9; 11,7
+1295,Mercimek Corbasi,Soup,Mediterranean,90,8,
+1296,Yayla Corbasi,Soup,Mediterranean,80,11,3
+1297,Tarhana Corbasi,Soup,Mediterranean,100,9; 11,7
+1298,Minestra Maltese,Soup,Mediterranean,90,9,
+1299,Aljotta,Soup,Mediterranean,80,5,5
+1300,Riblja Corba,Soup,Mediterranean,70,5,5
+1301,Supa od Povrca,Soup,Mediterranean,60,9,
+1302,Horiatiki Greek Salad,Salad,Mediterranean,90,9; 11,3
+1303,Dakos,Salad,Mediterranean,120,9; 11,7
+1304,Marouli Salad,Salad,Mediterranean,40,9,
+1305,Coban Salatasi,Salad,Mediterranean,50,9,
+1306,Patlican Salatsi,Salad,Mediterranean,80,9,
+1307,Kisir,Salad,Mediterranean,150,9,7
+1308,Maltese Bean Salad,Salad,Mediterranean,140,8,
+1309,Ftira Salad,Salad,Mediterranean,130,9; 11,7
+1310,Sopska Salad,Salad,Mediterranean,100,9; 11,3
+1311,Ajvar Salad,Salad,Mediterranean,90,9,
+1312,Gyro Wrap,Sandwich,Mediterranean,300,1,7
+1313,Souvlaki Pita,Sandwich,Mediterranean,280,2,7
+1314,Halloumi Wrap,Sandwich,Mediterranean,320,11,3; 7
+1315,Durum Kebab,Sandwich,Mediterranean,330,1,7
+1316,Lahmacun Roll,Sandwich,Mediterranean,280,1,7
+1317,Sigara Borek Wrap,Sandwich,Mediterranean,310,10; 11,3; 4; 7
+1318,Ftira Sandwich,Sandwich,Mediterranean,320,9; 11,7
+1319,Hobz Biz Zejt,Sandwich,Mediterranean,300,9,7
+1320,Cevapi Sandwich,Sandwich,Mediterranean,330,1,7
+1321,Burek Roll,Sandwich,Mediterranean,350,10; 11,3; 4; 7
+1322,Moussaka,Entrée,Mediterranean,220,1; 9; 11,3; 4; 7
+1323,Pastitsio,Entrée,Mediterranean,230,1; 11,3; 4; 7
+1324,Stifado,Entrée,Mediterranean,250,1,
+1325,Kleftiko,Entrée,Mediterranean,280,1,
+1326,Soutzoukakia,Entrée,Mediterranean,240,1,7
+1327,Grilled Octopus,Entrée,Mediterranean,120,6,6
+1328,Kotopoulo Lemonato,Entrée,Mediterranean,200,2,
+1329,Imam Bayildi,Entrée,Mediterranean,90,9,
+1330,Hunkar Begendi,Entrée,Mediterranean,250,1; 11,3
+1331,Iskender Kebab,Entrée,Mediterranean,280,1,3; 7
+1332,Tavuk Sis,Entrée,Mediterranean,220,2,
+1333,Karniyarik,Entrée,Mediterranean,180,1; 9,
+1334,Cilbir,Entrée,Mediterranean,150,10; 11,3; 4
+1335,Stuffat tal Fenek,Entrée,Mediterranean,230,3,
+1336,Bargioli,Entrée,Mediterranean,200,9,
+1337,Lampuki Pie,Entrée,Mediterranean,250,5,5; 7
+1338,Timpana,Entrée,Mediterranean,280,10; 11,3; 4; 7
+1339,Pasticada,Entrée,Mediterranean,260,1,
+1340,Cevapi Plate,Entrée,Mediterranean,300,1,
+1341,Sarma,Entrée,Mediterranean,150,1; 9,7
+1342,Pljeskavica,Entrée,Mediterranean,280,1,
+1343,Crni Rizot,Entrée,Mediterranean,190,6,6
+1344,Brodetto,Entrée,Mediterranean,180,5; 6,5; 6
+1345,Musaka Balkan Style,Entrée,Mediterranean,220,1; 9,3; 4; 7
+1346,Grilled Sea Bass with Herbs,Entrée,Mediterranean,150,5,5
+1347,Stuffed Peppers Balkan Style,Entrée,Mediterranean,180,1; 9,7
+1348,Spanakorizo,Entrée,Mediterranean,130,9,
+1349,Kolokithokeftedes,Entrée,Mediterranean,200,9; 11,3; 4; 7
+1350,Pilav with Lamb,Entrée,Mediterranean,190,1; 9,
+1351,Mediterranean Chickpea Stew,Entrée,Mediterranean,160,8,
+1352,Galaktoboureko,Dessert,Mediterranean,350,10; 11,3; 4; 7
+1353,Loukoumades,Dessert,Mediterranean,400,10; 11,3; 4; 7
+1354,Kourabiedes,Dessert,Mediterranean,500,10; 11,1; 3; 4; 7
+1355,Melomakarona,Dessert,Mediterranean,450,10; 11,1; 3; 4; 7
+1356,Revani,Dessert,Mediterranean,350,10; 11,3; 4; 7
+1357,Sutlac,Dessert,Mediterranean,150,11,3
+1358,Tavuk Gogsu,Dessert,Mediterranean,180,2; 11,3
+1359,Imqaret,Dessert,Mediterranean,400,10; 11,3; 4; 7
+1360,Kannoli Maltese,Dessert,Mediterranean,420,10; 11,3; 4; 7
+1361,Krempita,Dessert,Mediterranean,350,10; 11,3; 4; 7
+1362,Pretzels with Mustard,App,European,250,10; 11,7
+1363,Obatzda,App,European,300,11,3
+1364,Liptauer,App,European,280,11,3
+1365,Swiss Rosti Bites,App,European,220,9,3
+1366,Pierogi,App,European,230,10; 11,3; 4; 7
+1367,Zapiekanka,App,European,280,10; 11,3; 7
+1368,Langos,App,European,350,10; 11,3; 4; 7
+1369,Russian Blini,App,European,200,10; 11,3; 4; 7
+1370,Mini Yorkshire Puddings,App,European,220,10; 11,3; 4; 7
+1371,Smorrebrod,App,European,250,1; 5,7
+1372,Gravlax Canapes,App,European,180,5,5; 7
+1373,Swedish Meatball Skewers,App,European,250,1,7; 10
+1374,Sarma Rolls,App,European,150,1; 9,7
+1375,Ajvar Crostini,App,European,90,9,7
+1376,Bolinhos de Bacalhau,App,European,220,5,5; 7
+1377,Koartoffelsuppe,Soup,European,90,9,
+1378,Griessnockerlsuppe,Soup,European,80,10; 11,3; 4; 7
+1379,Swiss Cheese Soup,Soup,European,150,11,3
+1380,Borscht,Soup,European,60,9,
+1381,Zurek,Soup,European,100,1; 10,7
+1382,Goulash Soup,Soup,European,120,1,
+1383,Cock a Leekie,Soup,European,80,2,
+1384,Irish Potato Leek Soup,Soup,European,90,9,
+1385,Lohikeitto,Soup,European,100,5,3; 5
+1386,Caldo Verde,Soup,European,120,9,
+1387,German Potato Salad,Salad,European,150,9,
+1388,Swiss Beetroot Salad,Salad,European,70,9,
+1389,Austrian Cucumber Salad,Salad,European,40,9,
+1390,Salad Olivier,Salad,European,220,8; 10; 11,4; 7
+1391,Polish Beet and Apple Salad,Salad,European,80,9,
+1392,Hungarian Cabbage Salad,Salad,European,50,9,
+1393,Scandinavian Herring Salad,Salad,European,150,5,5
+1394,Irish Coleslaw,Salad,European,120,9; 11,4
+1395,Salada de Feijao Frade,Salad,European,130,8,
+1396,Leberkase Sandwich,Sandwich,European,320,1,7; 10
+1397,Schnitzel Sandwich,Sandwich,European,350,1,3; 4; 7
+1398,Plish Kielbasa Roll,Sandwich,European,330,4,7; 10
+1399,Czech Open Face Sandwich Chlebicky,Sandwich,European,280,1; 11,3; 4; 7
+1400,Smorrebrod,Sandwich,European,250,1; 5,7
+1401,Fish and Chips,Sandwich,European,250,5,5; 7
+1402,Pljeskavica Burger,Sandwich,European,330,1,7
+1403,Cevapi Sandwich,Sandwich,European,330,1,7
+1404,Bifana,Sandwich,European,320,4,7; 10
+1405,Prego Sandwich,Sandwich,European,330,4,7; 10
+1406,Wiener Schnitzel,Entrée,European,280,1,3; 4; 7
+1407,SaurerBraten,Entrée,European,250,1,
+1408,Bratwurst with Sauerkraut,Entrée,European,300,4,7; 10
+1409,Kase Spaetzle,Entrée,European,320,11,3; 7
+1410,Zurcher Geschnetzeltes,Entrée,European,250,1; 11,3
+1411,Roast Pork with Dumplings,Entrée,European,280,4,7; 10
+1412,Beef Stroganoff,Entrée,European,230,1,3
+1413,Hunarian Goulash,Entrée,European,220,1,
+1414,Bigos,Entrée,European,200,1; 4,10
+1415,Cabbage Rolls,Entrée,European,150,1; 9,7
+1416,Svickova,Entrée,European,240,1,3; 7
+1417,Pelmeni,Entrée,European,230,1; 10; 11,3; 4; 7
+1418,Shepherds Pie,Entrée,European,220,1; 9,3; 4; 7
+1419,Roast Beef and Yorkshire Pudding,Entrée,European,250,1; 10,3; 4; 7
+1420,Fish Pie,Entrée,European,200,5,3; 4; 5; 7
+1421,Swedish Meatballs,Entrée,European,250,1,3; 4; 7; 10
+1422,Gravlax Platter,Entrée,European,180,5,5
+1423,Irish Beef and Guinness Stew,Entrée,European,220,1,
+1424,Sarma,Entrée,European,150,1; 9,7
+1425,Musaka,Entrée,European,220,1; 9,3; 4; 7
+1426,Pljeskavica Sausage and Kebab Platter,Entrée,European,300,1; 4,
+1427,Ciorba de Burta,Entrée,European,120,1,3
+1428,Chicken Paprikash,Entrée,European,230,2,3
+1429,Bean Stew with Smoked Meat,Entrée,European,220,1; 8,10
+1430,Bacalhau a Bras,Entrée,European,250,5,5; 7
+1431,Arroz de Marisco,Entrée,European,190,6,6
+1432,Frilled Sardines,Entrée,European,180,5,5
+1433,Feijoada,Entrée,European,250,4; 8,10
+1434,Piri Piri Chicken,Entrée,European,240,2,
+1435,Cataplana,Entrée,European,200,6,6
+1436,Apple Strudel,Dessert,European,300,10; 11,3; 4; 7
+1437,Black Forest Cake,Dessert,European,350,10; 11,1; 3; 4; 7
+1438,Poppy Seed Roll,Dessert,European,380,10; 11,3; 4; 7
+1439,Medovik Honey Cake,Dessert,European,400,10; 11,3; 4; 7
+1440,Sticky Toffee Pudding,Dessert,European,450,10; 11,3; 4; 7
+1441,Danish Kringle,Dessert,European,420,10; 11,1; 3; 4; 7
+1442,Baklava,Dessert,European,450,10; 11,3; 4; 7
+1443,Sweet Cheese Strudel,Dessert,European,320,10; 11,3; 4; 7
+1444,Pastel de Nata,Dessert,European,250,10; 11,3; 4; 7
+1445,Toucinho do Ceu,Dessert,European,450,10; 11,3; 4; 7

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisine Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page page-cuisine">
+<main class="shell shell-category">
+    <section class="card category-panel">
+        <h1 class="title">Select a Cuisine</h1>
+        <p class="subtitle">Narrow your list by cuisine style.</p>
+
+        <div class="category-container">
+            <img src="img/logodesign.png" alt="FoodApp logo" class="background-image">
+
+            <div class="button-grid cuisine-grid" aria-label="Cuisine types">
+                <button class="button american" onclick="handleCuisineSelection('American')">American</button>
+                <button class="button canadian" onclick="handleCuisineSelection('Canadian')">Canadian</button>
+                <button class="button mexican" onclick="handleCuisineSelection('Mexican')">Mexican</button>
+                <button class="button latin" onclick="handleCuisineSelection('Latin')">Latin</button>
+                <button class="button french" onclick="handleCuisineSelection('French')">French</button>
+                <button class="button spanish" onclick="handleCuisineSelection('Spanish')">Spanish</button>
+                <button class="button italian" onclick="handleCuisineSelection('Italian')">Italian</button>
+                <button class="button european" onclick="handleCuisineSelection('European')">European</button>
+                <button class="button african" onclick="handleCuisineSelection('African')">African</button>
+                <button class="button mediterranean" onclick="handleCuisineSelection('Mediterranean')">Mediterranean</button>
+                <button class="button middleeast" onclick="handleCuisineSelection('Middle Eastern')">Middle Eastern</button>
+                <button class="button japanese" onclick="handleCuisineSelection('Japanese')">Japanese</button>
+                <button class="button asian" onclick="handleCuisineSelection('Asian')">Asian</button>
+                <button class="button chinese" onclick="handleCuisineSelection('Chinese')">Chinese</button>
+                <button class="button indian" onclick="handleCuisineSelection('Indian')">Indian</button>
+                <button class="button australian" onclick="handleCuisineSelection('Australian')">Australian</button>
+                <button class="button nopref" onclick="handleCuisineSelection(null)">No Preference</button>
+            </div>
+
+            <div class="results-box">
+                <h2>Recommendations</h2>
+                <ul id="resultsList">
+                    <li>Your food choices will appear here</li>
+                </ul>
+            </div>
+        </div>
+
+        <p id="selectionLabel" class="selection-label">Selections will appear here</p>
+
+        <div class="flow-actions">
+            <a href="category.html" class="btn btn-outline">Back</a>
+        </div>
+    </section>
+
+    <footer class="app-footer">© 2026 ImHungry App. All rights reserved.</footer>
+</main>
+
+<script src="js/list-interactions.js"></script>
+<script src="js/flow-state.js"></script>
+<script src="js/cuisine.js"></script>
+</body>
+</html>

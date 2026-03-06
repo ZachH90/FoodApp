@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page page-calorie">
+<main class="shell shell-category">
+    <section class="card category-panel">
+        <h1 class="title">Select Calories</h1>
+        <p class="subtitle">Choose the calorie range for your meal.</p>
+
+        <div class="category-container">
+            <img src="img/logodesign.png" alt="FoodApp logo" class="background-image">
+
+            <div class="button-grid calorie-grid" aria-label="Calorie ranges">
+                <button class="button low" onclick="handleCalorieSelection('<=400 kcal')">&lt;= 400 kcal</button>
+                <button class="button high" onclick="handleCalorieSelection('400+ kcal')">400+ kcal</button>
+                <button class="button all" onclick="handleCalorieSelection('All')">All</button>
+            </div>
+
+            <div class="results-box">
+                <h2>Recommendations</h2>
+                <ul id="calorieResultsList">
+                    <li>Your food choices will appear here</li>
+                </ul>
+            </div>
+        </div>
+
+        <p id="selectionLabel" class="selection-label">Selections will appear here</p>
+
+        <div class="flow-actions">
+            <a href="Cuisine_Page.html" class="btn btn-outline">Back</a>
+        </div>
+    </section>
+
+    <footer class="app-footer">© 2026 ImHungry App. All rights reserved.</footer>
+</main>
+
+<script src="js/list-interactions.js"></script>
+<script src="js/flow-state.js"></script>
+<script src="js/calorie.js"></script>
+</body>
+</html>

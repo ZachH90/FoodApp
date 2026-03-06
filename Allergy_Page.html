@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allergy Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page page-allergy">
+<main class="shell shell-category">
+    <section class="card category-panel">
+        <h1 class="title">Select Allergies</h1>
+        <p class="subtitle">Toggle allergies to exclude from recommendations.</p>
+
+        <div class="category-container">
+            <img src="img/logodesign.png" alt="FoodApp logo" class="background-image">
+
+            <div class="button-grid allergy-grid" aria-label="Allergy filters">
+                <button class="button treeNut" onclick="handleAllergyToggle(1, 'Tree Nuts', this)">Tree Nuts</button>
+                <button class="button peanut" onclick="handleAllergyToggle(2, 'Peanuts', this)">Peanuts</button>
+                <button class="button dairy" onclick="handleAllergyToggle(3, 'Dairy', this)">Dairy</button>
+                <button class="button eggs" onclick="handleAllergyToggle(4, 'Eggs', this)">Eggs</button>
+                <button class="button fish" onclick="handleAllergyToggle(5, 'Fish', this)">Fish</button>
+                <button class="button shellfish" onclick="handleAllergyToggle(6, 'Shellfish', this)">Shellfish</button>
+                <button class="button gluten" onclick="handleAllergyToggle(7, 'Gluten', this)">Gluten</button>
+                <button class="button berry" onclick="handleAllergyToggle(8, 'Berries', this)">Berries</button>
+                <button class="button soy" onclick="handleAllergyToggle(9, 'Soy', this)">Soy</button>
+                <button class="button pork" onclick="handleAllergyToggle(10, 'Pork', this)">Pork</button>
+            </div>
+
+            <div class="results-box">
+                <h2>Recommendations</h2>
+                <ul id="allergyResultsList">
+                    <li>Your food choices will appear here</li>
+                </ul>
+            </div>
+        </div>
+
+        <p id="selectionLabel" class="selection-label"></p>
+
+        <div class="flow-actions flow-actions-split">
+            <a href="Protein_Page.html" class="btn btn-outline">Back</a>
+            <button class="btn btn-primary" onclick="handleFinish()">Finish</button>
+        </div>
+    </section>
+
+    <footer class="app-footer">© 2026 ImHungry App. All rights reserved.</footer>
+</main>
+
+<script src="js/list-interactions.js"></script>
+<script src="js/flow-state.js"></script>
+<script src="js/allergy.js"></script>
+</body>
+</html>

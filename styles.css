@@ -212,6 +212,103 @@ body {
   font-weight: 600;
 }
 
+.flow-actions {
+  margin-top: 16px;
+}
+
+.flow-actions-split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.selection-label {
+  margin: 14px 0 0;
+  min-height: 1.4rem;
+  color: #9a3412;
+  font-weight: 600;
+}
+
+.button.selected,
+.results-box li.selected {
+  background: #fed7aa;
+  border-color: #fb923c;
+  color: #7c2d12;
+}
+
+.results-box li {
+  cursor: default;
+}
+
+.interactive-list li[data-food-name] {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 4px 8px;
+  margin-left: -8px;
+}
+
+.interactive-list li[data-food-name]:hover {
+  background: #fff7ed;
+  color: #7c2d12;
+}
+
+#finalResultsList li {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 4px 8px;
+  margin-left: -8px;
+}
+
+#finalResultsList li + li {
+  margin-top: 6px;
+}
+
+.quick-action-menu {
+  position: fixed;
+  z-index: 1100;
+  display: none;
+  min-width: 136px;
+  background: #ffffff;
+  border: 1px solid #fdba74;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  padding: 6px;
+}
+
+.quick-action-menu.open {
+  display: grid;
+  gap: 4px;
+}
+
+.quick-action-menu button {
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #9a3412;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-align: left;
+  padding: 8px 10px;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.quick-action-menu button:hover {
+  background: #ffedd5;
+}
+
+.cuisine-grid,
+.protein-grid,
+.allergy-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.final-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
 @media (max-width: 460px) {
   .card {
     padding: 22px;
@@ -223,5 +320,18 @@ body {
 
   .chips {
     grid-template-columns: 1fr;
+  }
+
+  .flow-actions-split,
+  .final-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .cuisine-grid,
+  .protein-grid,
+  .allergy-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
